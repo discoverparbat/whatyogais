@@ -152,11 +152,11 @@ To get there, Patanjali sets out eight limbs (*aṣṭāṅga*):
 1. **Yama:** ethical restraints, starting with non-harm and truthfulness
 2. **Niyama:** personal disciplines such as cleanliness, contentment and self-study
 3. **Asana:** a steady, comfortable seat
-4. **Pranayama:** working with the breath
-5. **Pratyahara:** drawing the senses inward
-6. **Dharana:** concentration
-7. **Dhyana:** meditation
-8. **Samadhi:** absorption
+4. **Pranayama:** control of the flow of prāṇa, the life force, loosely translated as breath control
+5. **Pratyahara:** withdrawal of the senses
+6. **Dharana:** holding the mind on one object of meditation, while the senses stay withdrawn
+7. **Dhyana:** meditation: dharana held unbroken, for longer
+8. **Samadhi:** absorption, the state of realisation
 
 Asana is third, and in the Yoga Sutras it gets three short verses. Its job is to let you sit still and comfortably long enough for the inner limbs to happen. We go through each limb in [the eight limbs of yoga, explained simply](/what-yoga-is/eight-limbs-of-yoga/).
 
