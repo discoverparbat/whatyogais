@@ -27,6 +27,7 @@ npm run dev
 - `src/data/site.ts`: site name, email and the five sections.
 - `src/styles/global.css`: design tokens (ākāśa night violet, moonlight, lavender mist, slate, Sahasrara violet accent; Tiro Devanagari
   Sanskrit + Hanken Grotesk).
+- `brand-mark.svg`: the master logo (meditator in padmasana, roots below, Sahasrara lotus at the crown).
 - `src/pages/`: home, section hubs, about, retreats, contact, privacy, terms.
 
 ## Deploy (Cloudflare Pages)

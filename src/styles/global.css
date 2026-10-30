@@ -59,7 +59,7 @@ strong { font-weight: 600; }
 .site-header .bar { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 18px 0; flex-wrap: wrap; }
 .brand { display: inline-flex; align-items: center; gap: 12px; color: var(--on-indigo); text-decoration: none; font-family: var(--display); font-size: 1.3rem; line-height: 1; }
 .brand:hover { color: #fff; }
-.brand svg { width: 34px; height: 34px; flex-shrink: 0; }
+.brand svg { width: 42px; height: 42px; flex-shrink: 0; margin: -4px 0; }
 .nav { display: flex; gap: 22px; flex-wrap: wrap; font-size: 0.97rem; }
 .nav a { color: var(--on-indigo-muted); text-decoration: none; }
 .nav a:hover, .nav a[aria-current="page"] { color: #fff; }
