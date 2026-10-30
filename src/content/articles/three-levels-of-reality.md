@@ -1,5 +1,5 @@
 ---
-title: "Three selves, three levels of reality: who is it that seeks freedom?"
+title: "Three selves, three levels of reality: who is it that seeks realisation?"
 description: "If I am Brahman, who is bound, who studies, who is liberated? The last verses of the Drg-Drsya Viveka answer with three selves (the dream self, the waking self, the witness), three levels of reality and the image of water, wave and foam. Part 6 of our reading."
 section: the-texts
 dev: "परमार्थ"
@@ -11,7 +11,7 @@ faqs:
   - q: "What are the three levels of reality in Advaita Vedanta?"
     a: "Pāramārthika, absolute reality: Brahman alone. Vyāvahārika, empirical or transactional reality: this waking world we live and work in. Prātibhāsika, apparent reality: dreams and illusions like the snake seen in a rope. Each lower level is resolved into the one above it."
   - q: "If I am Brahman, who is bound and who is liberated?"
-    a: "The Drg-Drsya Viveka distinguishes three selves: the witness, which is Brahman and was never bound; the waking individual, consciousness reflected in the mind, who feels bound and seeks freedom; and the dream self. Liberation is the waking individual being recognised as the witness."
+    a: "The Drg-Drsya Viveka distinguishes three selves: the witness, which is Brahman and was never bound; the waking individual, consciousness reflected in the mind, who feels bound and seeks realisation; and the dream self. Liberation is the waking individual being recognised as the witness."
   - q: "What are the mahavakyas?"
     a: "The 'great statements' of identity from the Upanishads: tat tvam asi (you are that, Chandogya), aham brahmāsmi (I am Brahman, Brihadaranyaka), prajñānaṃ brahma (consciousness is Brahman, Aitareya) and ayam ātmā brahma (this self is Brahman, Mandukya). The 'you' and 'I' in them is the witness, not the body or mind."
   - q: "What is the water, wave and foam example?"

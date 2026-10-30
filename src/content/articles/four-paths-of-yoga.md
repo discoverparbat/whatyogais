@@ -1,6 +1,6 @@
 ---
 title: "Jnana, karma, dhyana and bhakti: the four paths of yoga in the Bhagavad Gita"
-description: "Yoga isn't one practice, and it didn't start with Patanjali. The Bhagavad Gita teaches four paths to the same freedom: knowledge, action, meditation and devotion. What each one is, what it changes, and where Patanjali's eight limbs fit."
+description: "Yoga isn't one practice, and it didn't start with Patanjali. The Bhagavad Gita teaches four paths to the same realisation: knowledge, action, meditation and devotion. What each one is, what it changes, and where Patanjali's eight limbs fit."
 section: what-yoga-is
 dev: "मार्ग"
 iast: "mārga"
@@ -10,7 +10,7 @@ order: 2
 startHere: true
 faqs:
   - q: "What are the four paths of yoga in the Bhagavad Gita?"
-    a: "Jnana yoga (the path of knowledge), karma yoga (selfless action), dhyana yoga (meditation) and bhakti yoga (devotion). The Gita teaches all four as roads to the same freedom, suited to different temperaments."
+    a: "Jnana yoga (the path of knowledge), karma yoga (selfless action), dhyana yoga (meditation) and bhakti yoga (devotion). The Gita teaches all four as roads to the same realisation, suited to different temperaments."
   - q: "How is Patanjali's yoga related to the four paths?"
     a: "Patanjali's Yoga Sutras are a systematic method for one of them: dhyana yoga, the path of meditation. Yoga existed before him in the Upanishads and the Gita; he set out the path of meditation as eight limbs. Swami Vivekananda called this path raja yoga."
   - q: "Which path of yoga is hatha yoga part of?"
@@ -27,7 +27,7 @@ sources:
     url: "https://www.youtube.com/watch?v=jx7O2zDqi6I"
 ---
 
-In most of the world, "yoga" means one thing: a posture class. Ask a little further and you'll usually hear about Patanjali and his eight limbs. But the tradition is wider and older than either. Long before the *Yoga Sutras*, the **Bhagavad Gita** taught yoga as several paths to the same freedom, each suited to a different kind of person.
+In most of the world, "yoga" means one thing: a posture class. Ask a little further and you'll usually hear about Patanjali and his eight limbs. But the tradition is wider and older than either. Long before the *Yoga Sutras*, the **Bhagavad Gita** taught yoga as several paths to the same realisation, each suited to a different kind of person.
 
 ## Yoga before Patanjali
 
@@ -123,7 +123,7 @@ Most people don't choose one. You might work as a karma yogi, pray as a bhakta, 
 
 <div class="aside">
 
-**If you only remember one thing:** yoga has four paths: knowledge, action, meditation and devotion. Patanjali's eight limbs map the path of meditation, and posture is one step on that map. All four lead to the same freedom.
+**If you only remember one thing:** yoga has four paths: knowledge, action, meditation and devotion. Patanjali's eight limbs map the path of meditation, and posture is one step on that map. All four lead to the same realisation.
 
 </div>
 

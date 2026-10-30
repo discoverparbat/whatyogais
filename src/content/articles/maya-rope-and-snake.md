@@ -97,7 +97,7 @@ Everyone asks. The swami's answer is sharp: Maya is space, time and causation. T
 
 ## What this means for yoga
 
-Patanjali's yoga, built on Sāṅkhya, treats the seen world as real and seeks freedom by separating the seer from it, as if switching off the film. Advaita, says Swami Sarvapriyananda, doesn't ask you to switch it off. It asks you to recognise the screen. The famous summary, traditionally attributed to Shankara, puts the whole of this section in a line:
+Patanjali's yoga, built on Sāṅkhya, treats the seen world as real and seeks realisation by separating the seer from it, as if switching off the film. Advaita, says Swami Sarvapriyananda, doesn't ask you to switch it off. It asks you to recognise the screen. The famous summary, traditionally attributed to Shankara, puts the whole of this section in a line:
 
 <div class="verse">
 <p class="dev" lang="sa">ब्रह्म सत्यं जगन्मिथ्या जीवो ब्रह्मैव नापरः</p>
