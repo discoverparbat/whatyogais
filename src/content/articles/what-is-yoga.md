@@ -9,6 +9,8 @@ updated: 2026-10-30
 order: 1
 startHere: true
 faqs:
+  - q: "What is the goal of yoga according to Vedanta?"
+    a: "Realising that you are the seer, pure awareness, and that this awareness is Brahman, the one reality behind the world. The world is Brahman appearing through Maya as name and form, like a rope seen as a snake or gold seen as ornaments. All paths of yoga are meant to culminate in this knowledge."
   - q: "What are the four paths of yoga in the Bhagavad Gita?"
     a: "Jnana yoga (the path of knowledge), karma yoga (selfless action), dhyana yoga (meditation) and bhakti yoga (devotion). The Gita teaches all four as roads to the same freedom, suited to different temperaments."
   - q: "Did Patanjali invent yoga?"
@@ -28,6 +30,9 @@ sources:
   - title: "Patanjali, Yoga Sutras 1.2–1.3 and 2.29 (Sanskrit text and translation)"
   - title: "Bhagavad Gita 2.48, 2.50, 4.38, 6.10–6.19 and 9.26"
   - title: "Katha Upanishad 2.3.11"
+  - title: "Drg-Drsya Viveka, verses 1, 13–15 and 20"
+  - title: "Swami Sarvapriyananda, Introduction to Vedanta (Vedanta Society of Southern California, 2016)"
+    url: "https://www.youtube.com/watch?v=m6kALQlK6-Q&list=PLBh-iYJ1Q_hRn-1WgwiBj7CfasK6TOqG5"
   - title: "Mark Singleton, Yoga Body: The Origins of Modern Posture Practice (Oxford University Press, 2010)"
   - title: "David Gordon White, The Yoga Sutra of Patanjali: A Biography (Princeton University Press, 2014)"
 ---
@@ -151,6 +156,29 @@ Asana is third, and in the Yoga Sutras it gets three short verses. Its job is to
 
 Later, from around the 11th century, the **hatha yoga** traditions, many of them linked to the Nath yogis of the Himalaya, developed postures, breath practices and cleansing techniques in far more detail. Even then, the body was a vehicle for the same inner goal. The *Hatha Yoga Pradipika* says plainly that hatha yoga exists as a ladder to raja yoga, the yoga of the mind.
 
+## Where every path leads: the seer, Brahman and Maya
+
+In the tradition of Vedanta, all four paths, and Patanjali's eight limbs with them, lead to one realisation. Swami Sarvapriyananda puts it simply: all the worship, all the good works and all the meditation we do are meant to culminate in this knowledge. Put in a few lines:
+
+- **You are the seer, not the seen.** Your eyes see the world, your mind sees your eyes, and something sees your mind: the witness, pure awareness. That witness is never one of the things it sees. We walk through this step by step in [the seer and the seen](/the-texts/seer-and-the-seen/).
+- **That seer is Brahman.** The awareness within you is the same reality that is the existence of everything. The Upanishads say it in four words: *tat tvam asi*, "you are that".
+- **The world is Brahman under name and form.** A power called **Maya** veils that reality and projects it as a world of separate things and separate selves.
+
+Two classic examples carry the whole idea.
+
+**The rope and the snake.** In dim light you see a snake. Later you find it was a rope. You didn't see the rope (Maya's veiling power), and you saw a snake instead (its projecting power). The snake never bit anyone and was never there. It goes away only one way: by seeing the rope. No amount of fighting the snake will do it. That's why Vedanta calls knowledge, not effort, the final step. See [Maya: the rope and the snake](/the-texts/maya-rope-and-snake/).
+
+**Gold and ornaments.** An earring, a necklace and a bangle look different and have different names, but they are all gold. Melt one into another and only the name and form change. Everything we experience *is*, *shines* in awareness and is in some way *dear*: that is Brahman, existence-consciousness-bliss. Its shape and its label are the world. See [gold and ornaments](/the-texts/gold-and-ornaments/).
+
+<div class="verse">
+<p class="dev" lang="sa">ब्रह्म सत्यं जगन्मिथ्या जीवो ब्रह्मैव नापरः</p>
+<p class="iast">brahma satyaṃ jagan mithyā jīvo brahmaiva nāparaḥ</p>
+<p class="tr">Brahman is real, the world is appearance, and the individual is Brahman alone, not other.</p>
+<p class="ref">A summary traditionally attributed to Shankara</p>
+</div>
+
+Here Patanjali and Vedanta speak a little differently. Patanjali's yoga, built on Sāṅkhya, seeks freedom by separating the seer from the seen, as if switching off a film. Vedanta says you don't need to switch it off: recognise the screen, and the film can't harm you. Both agree on the essential point. In the end, **yoga is the seer recognising itself**, no longer mistaken for the body, the mind or the world it sees.
+
 ## So where does the yoga class fit?
 
 Most modern classes grew out of a 20th-century revival of posture practice, especially the teaching of T. Krishnamacharya in Mysore and his students, which mixed traditional hatha yoga with gymnastics and physical culture of the time. Historians such as Mark Singleton have traced how much of what's taught today is genuinely new.
@@ -159,7 +187,7 @@ None of that makes a class worthless. It's often how people first feel what yoga
 
 <div class="aside">
 
-**If you only remember one thing:** yoga is older than Patanjali and wider than posture. The Gita teaches four paths, knowledge, action, meditation and devotion. Patanjali mapped the path of meditation in eight limbs, and posture is one step on it.
+**If you only remember one thing:** yoga is older than Patanjali and wider than posture. The Gita teaches four paths, knowledge, action, meditation and devotion; Patanjali mapped the path of meditation in eight limbs. All of them lead to one realisation: you are the seer, and the seer is Brahman.
 
 </div>
 
@@ -169,5 +197,7 @@ None of that makes a class worthless. It's often how people first feel what yoga
 - [The eight limbs of yoga, explained simply](/what-yoga-is/eight-limbs-of-yoga/)
 - [Jnana, karma, dhyana and bhakti: the four paths of yoga](/what-yoga-is/four-paths-of-yoga/)
 - [The seer and the seen: one verse that explains what yoga is for](/the-texts/seer-and-the-seen/)
+- [Maya: the rope, the snake and the two powers that hide what you are](/the-texts/maya-rope-and-snake/)
+- [Gold and ornaments: how to see Brahman in everything](/the-texts/gold-and-ornaments/)
 - [Is yoga just exercise?](/lost-in-translation/is-yoga-just-exercise/)
 - [What the Yoga Sutras actually say about asana](/the-texts/yoga-sutras-on-asana/)

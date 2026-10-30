@@ -1,6 +1,6 @@
 ---
 title: "The seer and the seen: one verse that explains what yoga is for"
-description: "The first verse of the Drg-Drsya Viveka walks from your eyes to your mind to the witness behind both, in four steps. Here's what it says, how to check it for yourself, and why the Yoga Sutras point at the same seer."
+description: "Part 1 of our reading of the Drg-Drsya Viveka. Its first verse walks from your eyes to your mind to the witness behind both, in four steps. Here's what it says, how to check it for yourself, and why the Yoga Sutras point at the same seer."
 section: the-texts
 dev: "दृग्दृश्यविवेक"
 iast: "dṛg-dṛśya-viveka"
@@ -127,6 +127,19 @@ The verse's claim is a bold one. Steps one and two are plainly facts. It says st
 ## Where this teaching comes from
 
 This article draws on [the first class of Swami Sarvapriyananda's *Introduction to Vedanta* series](https://www.youtube.com/watch?v=jx7O2zDqi6I), given at the Vedanta Society of Southern California on 12 January 2016. The series works through the *Dṛg-Dṛśya Viveka* verse by verse. It's one of the clearest introductions to the subject in English, and worth watching in full. The explanation here is our own summary; any mistakes are ours.
+
+<div class="aside">
+
+**Reading the Dṛg-Dṛśya Viveka, with Swami Sarvapriyananda**
+
+1. [The seer and the seen](/the-texts/seer-and-the-seen/) (verses 1–5)
+2. [The mirror of the mind](/the-texts/mirror-of-the-mind/) (verses 6–12)
+3. [Maya: the rope and the snake](/the-texts/maya-rope-and-snake/) (verses 13–19)
+4. [Gold and ornaments: seeing Brahman in everything](/the-texts/gold-and-ornaments/) (verses 20–21)
+5. [The six meditations of Vedanta](/beyond-the-mat/six-vedantic-meditations/) (verses 22–31)
+6. [Three selves, three levels of reality](/the-texts/three-levels-of-reality/) (verses 32–46)
+
+</div>
 
 ## Where to go next
 
