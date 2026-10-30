@@ -1,0 +1,168 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { SITE, sections } from '../data/site';
+
+const all = await getCollection('articles');
+const startHere = all.filter((a) => a.data.startHere).sort((a, b) => a.data.order - b.data.order || a.data.title.localeCompare(b.data.title));
+const countIn = (slug: string) => all.filter((a) => a.data.section === slug).length;
+
+const limbs = [
+  { dev: 'यम', iast: 'yama', en: 'Restraint' },
+  { dev: 'नियम', iast: 'niyama', en: 'Discipline' },
+  { dev: 'आसन', iast: 'āsana', en: 'Posture' },
+  { dev: 'प्राणायाम', iast: 'prāṇāyāma', en: 'Breath' },
+  { dev: 'प्रत्याहार', iast: 'pratyāhāra', en: 'Withdrawal' },
+  { dev: 'धारणा', iast: 'dhāraṇā', en: 'Concentration' },
+  { dev: 'ध्यान', iast: 'dhyāna', en: 'Meditation' },
+  { dev: 'समाधि', iast: 'samādhi', en: 'Absorption' },
+];
+
+const schema = {
+  '@context': 'https://schema.org', '@type': 'WebSite',
+  name: SITE.name, url: SITE.url + '/', description: 'Clear, sourced writing on what the yoga tradition actually teaches, from Nepal.',
+};
+---
+<Base title="Himalayan Yoga Roots: yoga as it is, from where it began" description="What yoga actually is, beyond the poses: the meaning, the eight limbs, the texts and the Himalayan traditions, explained clearly from Nepal." schema={schema}>
+  <section class="hero">
+    <div class="container hero-inner">
+      <p class="hero-dev" lang="sa">योगश्चित्तवृत्तिनिरोधः</p>
+      <p class="hero-iast">yogaś citta-vṛtti-nirodhaḥ</p>
+      <h1>Yoga is the stilling of the movements of the mind.</h1>
+      <p class="hero-ref">Patanjali, Yoga Sutras 1.2</p>
+      <p class="hero-copy">That's how the tradition defines yoga, nearly two thousand years before the yoga mat. This site explains what yoga really is, beyond the poses: the meaning, the practice, the texts and the living Himalayan traditions it comes from.</p>
+      <a class="hero-link" href="/what-yoga-is/what-is-yoga/">Read: what is yoga, really?</a>
+    </div>
+    <svg class="ridge" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 120 L0 92 L120 60 L190 78 L300 34 L380 70 L470 48 L560 82 L660 22 L750 64 L840 44 L930 76 L1040 30 L1120 66 L1210 50 L1300 80 L1380 58 L1440 70 L1440 120 Z" fill="#F6F8FB" />
+    </svg>
+  </section>
+
+  <section class="container start">
+    <h2>Start with the questions</h2>
+    <ul class="q-list">
+      {startHere.map((a) => (
+        <li>
+          <a href={`/${a.data.section}/${a.id}/`}>{a.data.title}</a>
+          <p class="muted">{a.data.description}</p>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="limbs-band">
+    <div class="container">
+      <h2>The path has eight limbs. Posture is the third.</h2>
+      <p class="limbs-intro">Patanjali's eight-limbed path moves from how you treat the world, inward to a still mind. Most classes teach one limb, sometimes two.</p>
+      <ol class="limbs">
+        {limbs.map((l, i) => (
+          <li class={i === 2 ? 'is-asana' : ''}>
+            <span class="n">{i + 1}</span>
+            <span class="dev" lang="sa">{l.dev}</span>
+            <span class="iast">{l.iast}</span>
+            <span class="en">{l.en}</span>
+          </li>
+        ))}
+      </ol>
+      <a href="/what-yoga-is/eight-limbs-of-yoga/">The eight limbs, explained simply</a>
+    </div>
+  </section>
+
+  <section class="container explore">
+    <h2>Explore</h2>
+    <ul class="sec-grid">
+      {sections.map((s) => (
+        <li>
+          <a href={`/${s.slug}/`}>
+            <span class="dev" lang="sa" aria-hidden="true">{s.dev}</span>
+            <span class="name">{s.name}</span>
+            <span class="sum">{s.summary}</span>
+            <span class="count">{countIn(s.slug) === 1 ? '1 article' : `${countIn(s.slug)} articles`}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="container from-nepal">
+    <div>
+      <h2>Written from Nepal</h2>
+      <p>Himalayan Yoga Roots is written by Sameer Regmi, a guide and photographer from Nepal, where yoga isn't a trend but part of daily life: in the temples of Pashupatinath, the caves of the Nath yogis and the morning prayers of every village. The aim is simple: to explain the tradition clearly and respectfully, with sources, for anyone who practises yoga anywhere in the world.</p>
+      <p><a href="/about/">About this site</a></p>
+    </div>
+    <div class="retreat-note">
+      <h3>Experience it at the source</h3>
+      <p>Small, authentic yoga and meditation retreats in the Nepal Himalaya are being prepared with Discover Parbat.</p>
+      <p><a href="/retreats/">Find out more</a></p>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero { position: relative; background: var(--indigo); color: var(--on-indigo); padding: 72px 0 140px; overflow: hidden; }
+  .hero-inner > * { max-width: 880px; }
+  .hero-dev { font-family: var(--display); font-size: clamp(2.1rem, 7.2vw, 5.2rem); line-height: 1.25; color: var(--saffron); margin: 0 0 6px; overflow-wrap: anywhere; animation: rise 1.4s ease-out both; }
+  .hero-iast { font-family: var(--display); font-style: italic; color: var(--on-indigo-muted); font-size: clamp(1.05rem, 2.2vw, 1.3rem); margin: 0 0 28px; }
+  .hero h1 { color: #fff; font-size: clamp(1.9rem, 4.4vw, 3.2rem); max-width: 22ch; margin-bottom: 10px; }
+  .hero-ref { color: var(--on-indigo-muted); font-size: 0.95rem; margin: 0 0 30px; }
+  .hero-copy { font-size: 1.15rem; max-width: 58ch; margin-bottom: 26px; }
+  .hero-link { display: inline-block; color: var(--indigo); background: var(--saffron); padding: 12px 20px; border-radius: var(--radius); text-decoration: none; font-weight: 600; }
+  .hero-link:hover { background: #E0A12A; color: var(--indigo); }
+  .ridge { position: absolute; left: 0; bottom: -1px; width: 100%; height: 90px; }
+  @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+
+  .start { padding-top: 40px; }
+  .q-list { list-style: none; padding: 0; margin: 0; max-width: 860px; }
+  .q-list li { padding: 22px 0; border-top: 1px solid var(--line); }
+  .q-list li:last-child { border-bottom: 1px solid var(--line); }
+  .q-list a { font-family: var(--display); font-size: clamp(1.35rem, 2.8vw, 1.8rem); text-decoration: none; line-height: 1.25; }
+  .q-list a:hover { text-decoration: underline; }
+  .q-list p { margin: 6px 0 0; max-width: 70ch; }
+
+  .limbs-band { background: var(--glacier); margin-top: 80px; padding: 64px 0; }
+  .limbs-band h2 { margin-top: 0; max-width: 22ch; }
+  .limbs-intro { max-width: 60ch; font-size: 1.1rem; }
+  .limbs { list-style: none; padding: 0; margin: 32px 0 28px; display: grid; grid-template-columns: repeat(8, 1fr); gap: 0; border-top: 2px solid var(--indigo); }
+  .limbs li { padding: 16px 12px 18px 0; display: flex; flex-direction: column; gap: 2px; border-right: 1px solid var(--line); padding-left: 12px; }
+  .limbs li:first-child { padding-left: 0; }
+  .limbs li:last-child { border-right: 0; }
+  .limbs .n { font-size: 0.85rem; color: var(--slate); }
+  .limbs .dev { font-family: var(--display); font-size: 1.45rem; color: var(--indigo); line-height: 1.3; }
+  .limbs .iast { font-family: var(--display); font-style: italic; color: var(--slate); font-size: 0.95rem; }
+  .limbs .en { font-weight: 600; font-size: 0.95rem; }
+  .limbs .is-asana { background: var(--indigo); color: var(--on-indigo); padding-left: 12px; border-right-color: var(--indigo); }
+  .limbs .is-asana .dev { color: var(--saffron); }
+  .limbs .is-asana .n, .limbs .is-asana .iast { color: var(--on-indigo-muted); }
+  @media (max-width: 900px) {
+    .limbs { grid-template-columns: repeat(4, 1fr); }
+    .limbs li:nth-child(4) { border-right: 0; }
+    .limbs li:nth-child(5) { padding-left: 0; }
+    .limbs li:nth-child(n+5) { border-top: 1px solid var(--line); }
+    .limbs li.is-asana { padding-left: 12px; }
+  }
+  @media (max-width: 520px) {
+    .limbs { grid-template-columns: repeat(2, 1fr); }
+    .limbs li { border-right: 1px solid var(--line); padding-left: 12px; border-top: 1px solid var(--line); }
+    .limbs li:nth-child(odd) { padding-left: 0; }
+    .limbs li:nth-child(even) { border-right: 0; }
+    .limbs li:nth-child(-n+2) { border-top: 0; }
+    .limbs li.is-asana { padding-left: 12px; }
+  }
+
+  .explore { padding-top: 24px; }
+  .sec-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 0 40px; }
+  .sec-grid li { border-top: 1px solid var(--line); }
+  .sec-grid a { display: grid; grid-template-columns: 5.5rem 1fr; grid-template-rows: auto auto auto; column-gap: 16px; padding: 22px 0; text-decoration: none; color: inherit; }
+  .sec-grid .dev { grid-row: 1 / span 3; font-family: var(--display); font-size: 1.7rem; color: var(--saffron-deep); line-height: 1.2; }
+  .sec-grid .name { font-family: var(--display); font-size: 1.4rem; color: var(--indigo); line-height: 1.25; }
+  .sec-grid a:hover .name { text-decoration: underline; text-decoration-color: var(--saffron); }
+  .sec-grid .sum { color: var(--slate); margin-top: 4px; }
+  .sec-grid .count { font-size: 0.88rem; color: var(--slate); margin-top: 6px; }
+
+  .from-nepal { display: grid; grid-template-columns: 1.6fr 1fr; gap: 48px; margin-top: 72px; align-items: start; }
+  .from-nepal h2 { margin-top: 0; }
+  .from-nepal p { max-width: 62ch; }
+  .retreat-note { border-left: 3px solid var(--saffron); padding: 4px 0 4px 22px; }
+  .retreat-note h3 { margin-top: 0; }
+  @media (max-width: 800px) { .from-nepal { grid-template-columns: 1fr; gap: 24px; } }
+</style>

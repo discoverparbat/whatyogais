@@ -1,0 +1,60 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { SITE, sections } from '../../data/site';
+
+export async function getStaticPaths() {
+  const all = await getCollection('articles');
+  return sections.map((section) => ({
+    params: { section: section.slug },
+    props: { section, items: all.filter((a) => a.data.section === section.slug).sort((a, b) => a.data.order - b.data.order) },
+  }));
+}
+const { section, items } = Astro.props;
+const schema = {
+  '@context': 'https://schema.org', '@type': 'CollectionPage',
+  name: section.name, description: section.summary, url: `${SITE.url}/${section.slug}/`,
+};
+---
+<Base title={`${section.name} | ${SITE.name}`} description={section.summary} schema={schema}>
+  <header class="sec-head">
+    <div class="container">
+      <p class="dev" lang="sa">{section.dev}</p>
+      <h1>{section.name}</h1>
+      <p class="lede">{section.summary}</p>
+    </div>
+  </header>
+  <section class="container sec-body">
+    {items.length === 0 ? (
+      <p class="muted">The first articles in this section are being written. Start with <a href="/what-yoga-is/what-is-yoga/">what yoga really is</a>.</p>
+    ) : (
+      <ul class="sec-list">
+        {items.map((a) => (
+          <li>
+            {a.data.dev && <span class="dev" lang="sa" aria-hidden="true">{a.data.dev}</span>}
+            <div>
+              <a href={`/${section.slug}/${a.id}/`}>{a.data.title}</a>
+              <p class="muted">{a.data.description}</p>
+            </div>
+          </li>
+        ))}
+      </ul>
+    )}
+  </section>
+</Base>
+
+<style>
+  .sec-head { background: var(--indigo); color: var(--on-indigo); padding: 56px 0; }
+  .sec-head .dev { font-size: clamp(2.6rem, 7vw, 4.2rem); color: var(--saffron); margin: 0; line-height: 1.2; }
+  .sec-head h1 { color: #fff; margin: 0 0 12px; }
+  .lede { font-size: 1.2rem; max-width: 56ch; margin: 0; }
+  .sec-body { padding-top: 40px; }
+  .sec-list { list-style: none; padding: 0; margin: 0; max-width: 820px; }
+  .sec-list li { display: grid; grid-template-columns: 7rem 1fr; gap: 20px; padding: 22px 0; border-top: 1px solid var(--line); align-items: baseline; }
+  .sec-list li:last-child { border-bottom: 1px solid var(--line); }
+  .sec-list .dev { font-size: 1.6rem; color: var(--saffron-deep); line-height: 1.2; }
+  .sec-list a { font-family: var(--display); font-size: 1.45rem; text-decoration: none; line-height: 1.25; }
+  .sec-list a:hover { text-decoration: underline; }
+  .sec-list p { margin: 6px 0 0; }
+  @media (max-width: 600px) { .sec-list li { grid-template-columns: 1fr; gap: 4px; } }
+</style>

@@ -1,0 +1,15 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE } from '../data/site';
+---
+<Page title="Terms | Himalayan Yoga Roots" description="Terms of use and health disclaimer for Himalayan Yoga Roots." heading="Terms">
+  <p>Last updated 30 October 2026.</p>
+  <h2>Educational content</h2>
+  <p>Everything on this site is for general education about yoga's philosophy, history and practice. It isn't medical, psychological or professional advice. Some practices, especially breathwork and long periods of meditation, aren't suitable for everyone. Learn from a qualified teacher and consult a doctor if you have any health concerns.</p>
+  <h2>Translations and sources</h2>
+  <p>Sanskrit translations are our own or follow standard scholarly renderings, and we cite our sources. Translation always involves interpretation; where scholars differ, we try to say so.</p>
+  <h2>Copyright</h2>
+  <p>Articles and photographs are © {SITE.name} unless stated otherwise. You're welcome to quote short passages with a link back.</p>
+  <h2>Contact</h2>
+  <p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+</Page>

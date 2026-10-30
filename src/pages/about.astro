@@ -1,0 +1,22 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE } from '../data/site';
+const schema = { '@context': 'https://schema.org', '@type': 'AboutPage', name: 'About Himalayan Yoga Roots', url: `${SITE.url}/about/` };
+---
+<Page title="About | Himalayan Yoga Roots" description="Why Himalayan Yoga Roots exists: clear, sourced writing on what the yoga tradition actually teaches, written from Nepal by Sameer Regmi." heading="About this site" dev="परिचय" lede="Yoga as it is, from where it began." schema={schema}>
+  <p>Yoga has travelled the world. Along the way, the parts that are easiest to see and sell, the poses, became the whole story for many people. The ethics, the breath, meditation, the texts and the goal of a still mind were left in the background.</p>
+  <p>Himalayan Yoga Roots exists to bring them back into view: clearly, respectfully and with sources. It isn't against modern yoga classes. For many people they're the doorway in. This site is about what lies beyond the doorway.</p>
+  <h2>How we write</h2>
+  <ul>
+    <li><strong>From the sources.</strong> Claims about what yoga is are tied to the texts themselves, such as the Yoga Sutras, the Bhagavad Gita, the Upanishads and the Hatha Yoga Pradipika, and to good scholarship.</li>
+    <li><strong>In plain language.</strong> Sanskrit is shown in Devanagari with its transliteration and meaning, so you can see the word as well as understand it.</li>
+    <li><strong>Without contempt.</strong> We explain what changed as yoga went west, and why, without mocking anyone's practice.</li>
+    <li><strong>From place.</strong> Many of yoga's roots are Himalayan: the Nath yogis, the shrines of Shiva, the caves and monasteries. We write about them as places you can visit, not as myths.</li>
+  </ul>
+  <h2>Who writes it</h2>
+  <p>Himalayan Yoga Roots is written by <strong>Sameer Regmi</strong>, a guide and photographer from Nepal and founder of <a href="https://discoverparbat.com" target="_blank" rel="noopener">Discover Parbat</a>. Growing up in Nepal, yoga, mantra and pilgrimage are part of everyday life rather than a trend, and the aim here is to share that context honestly with practitioners everywhere.</p>
+  <h2>A note on health</h2>
+  <p>Articles here are for general education. They aren't medical advice. If you have a health condition, are pregnant, or are new to breathwork, learn from a qualified teacher and check with your doctor.</p>
+  <h2>Get in touch</h2>
+  <p>Corrections, questions and suggestions are welcome: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+</Page>

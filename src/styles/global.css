@@ -1,0 +1,107 @@
+/* Himalayan Yoga Roots — design tokens
+   Pre-dawn Himalayan palette: deep Kailash indigo, cool snow, glacier blue, slate,
+   and one accent, sadhu saffron, used sparingly. */
+:root {
+  --indigo: #1D2740;      /* night sky over the range: header, hero, footer, headings */
+  --indigo-2: #2A3657;    /* raised surfaces on indigo */
+  --snow: #F6F8FB;        /* page background (cool, not cream) */
+  --glacier: #E3EAF3;     /* quiet section background */
+  --slate: #55607A;       /* secondary text */
+  --ink: #1A2133;         /* body text */
+  --saffron: #C98A0B;     /* the one accent */
+  --saffron-deep: #9A6800;/* accent text on light backgrounds (AA contrast) */
+  --line: #CDD6E3;
+  --on-indigo: #E9EEF6;
+  --on-indigo-muted: #A9B4C9;
+
+  --display: 'Tiro Devanagari Sanskrit', 'Iowan Old Style', Georgia, serif;
+  --text: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --measure: 68ch;
+  --radius: 4px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--snow);
+  color: var(--ink);
+  font-family: var(--text);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  text-rendering: optimizeLegibility;
+}
+img { max-width: 100%; height: auto; display: block; }
+
+/* Type scale (perfect fourth, 1.333) */
+h1, h2, h3, h4 { font-family: var(--display); font-weight: 400; color: var(--indigo); line-height: 1.15; letter-spacing: -0.005em; margin: 0 0 0.5em; }
+h1 { font-size: clamp(2.2rem, 5vw, 3.55rem); }
+h2 { font-size: clamp(1.6rem, 3.2vw, 2.37rem); margin-top: 1.6em; }
+h3 { font-size: clamp(1.25rem, 2.2vw, 1.5rem); margin-top: 1.4em; }
+p, ul, ol { margin: 0 0 1em; }
+a { color: var(--indigo); text-decoration-color: var(--saffron); text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+a:hover { color: var(--saffron-deep); }
+:focus-visible { outline: 3px solid var(--saffron); outline-offset: 3px; border-radius: 2px; }
+strong { font-weight: 600; }
+
+.container { width: min(1120px, 100% - 40px); margin-inline: auto; }
+.narrow { width: min(var(--measure), 100% - 40px); margin-inline: auto; }
+
+/* Sanskrit: Devanagari with its transliteration */
+.skt { font-family: var(--display); }
+.dev { font-family: var(--display); font-feature-settings: 'kern'; }
+.iast { font-style: italic; }
+
+/* Header */
+.site-header { background: var(--indigo); color: var(--on-indigo); }
+.site-header .bar { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 18px 0; flex-wrap: wrap; }
+.brand { display: inline-flex; align-items: center; gap: 12px; color: var(--on-indigo); text-decoration: none; font-family: var(--display); font-size: 1.3rem; line-height: 1; }
+.brand:hover { color: #fff; }
+.brand svg { width: 34px; height: 34px; flex-shrink: 0; }
+.nav { display: flex; gap: 22px; flex-wrap: wrap; font-size: 0.97rem; }
+.nav a { color: var(--on-indigo-muted); text-decoration: none; }
+.nav a:hover, .nav a[aria-current="page"] { color: #fff; }
+.nav a[aria-current="page"] { text-decoration: underline; text-decoration-color: var(--saffron); text-underline-offset: 6px; }
+@media (max-width: 760px) {
+  .site-header .bar { gap: 12px; padding: 14px 0 10px; }
+  .nav { flex-wrap: nowrap; overflow-x: auto; width: 100%; gap: 18px; padding-bottom: 6px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a { white-space: nowrap; }
+}
+
+/* Footer */
+.site-footer { background: var(--indigo); color: var(--on-indigo-muted); padding: 56px 0 36px; font-size: 0.95rem; margin-top: 96px; }
+.site-footer a { color: var(--on-indigo); text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; color: #fff; }
+.foot-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: 36px; }
+@media (max-width: 760px) { .foot-grid { grid-template-columns: 1fr 1fr; } .foot-grid > :first-child { grid-column: 1 / -1; } }
+.foot-grid h2 { color: #fff; font-size: 1.15rem; margin: 0 0 12px; }
+.foot-grid ul { list-style: none; padding: 0; margin: 0; }
+.foot-grid li { margin-bottom: 7px; }
+.foot-note { border-top: 1px solid var(--indigo-2); margin-top: 40px; padding-top: 20px; font-size: 0.88rem; }
+
+/* Article body */
+.prose { max-width: var(--measure); }
+.prose p, .prose li { font-size: 1.09rem; }
+.prose h2 { font-size: clamp(1.5rem, 2.8vw, 2rem); }
+.prose blockquote { margin: 1.6em 0; padding: 0 0 0 22px; border-left: 3px solid var(--saffron); color: var(--indigo); }
+.prose blockquote p { font-size: 1.12rem; }
+.prose hr { border: 0; border-top: 1px solid var(--line); margin: 2.4em 0; }
+
+/* A verse: Devanagari, transliteration, translation, reference */
+.verse { margin: 2em 0; padding: 26px 28px; background: var(--glacier); border-radius: var(--radius); }
+.verse .dev { font-size: clamp(1.35rem, 3vw, 1.75rem); color: var(--indigo); line-height: 1.5; margin: 0 0 6px; }
+.verse .iast { color: var(--slate); margin: 0 0 12px; }
+.verse .tr { font-size: 1.12rem; margin: 0 0 6px; color: var(--ink); }
+.verse .ref { font-size: 0.9rem; color: var(--slate); margin: 0; }
+
+/* Plain note */
+.aside { margin: 1.8em 0; padding: 18px 22px; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; }
+.aside p:last-child { margin-bottom: 0; }
+
+.muted { color: var(--slate); }
+.skip { position: absolute; left: -999px; top: 8px; background: var(--saffron); color: var(--indigo); padding: 8px 12px; border-radius: var(--radius); z-index: 10; }
+.skip:focus { left: 8px; }
+
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }

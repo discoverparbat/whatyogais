@@ -1,0 +1,18 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE } from '../data/site';
+---
+<Page title="Privacy | Himalayan Yoga Roots" description="How Himalayan Yoga Roots handles your data." heading="Privacy">
+  <p>Last updated 30 October 2026.</p>
+  <p>Himalayan Yoga Roots is a reading site. You don't need an account, and we don't ask for personal information to read anything.</p>
+  <h2>What we collect</h2>
+  <ul>
+    <li><strong>Email.</strong> If you email us, we use your address only to reply. We don't add you to any list without asking.</li>
+    <li><strong>Hosting logs.</strong> Our host, Cloudflare, processes basic technical data such as IP addresses to deliver and protect the site.</li>
+    <li><strong>Fonts.</strong> Pages load fonts from Google Fonts, which receives your IP address when fonts are requested.</li>
+  </ul>
+  <h2>Advertising and analytics</h2>
+  <p>We may add privacy-respecting analytics or advertising in future. If we do, this page will be updated first, and any cookies that need consent will ask for it.</p>
+  <h2>Contact</h2>
+  <p>Questions about privacy: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
+</Page>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://himalayanyogaroots.com/sitemap-index.xml

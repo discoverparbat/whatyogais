@@ -1,0 +1,22 @@
+---
+import Base from './Base.astro';
+interface Props { title: string; description: string; heading: string; lede?: string; dev?: string; schema?: object | object[]; noindex?: boolean }
+const { title, description, heading, lede, dev, schema, noindex } = Astro.props;
+---
+<Base title={title} description={description} schema={schema} noindex={noindex}>
+  <header class="pg-head">
+    <div class="narrow">
+      {dev && <p class="dev" lang="sa">{dev}</p>}
+      <h1>{heading}</h1>
+      {lede && <p class="lede">{lede}</p>}
+    </div>
+  </header>
+  <div class="narrow prose pg-body"><slot /></div>
+</Base>
+<style>
+  .pg-head { background: var(--indigo); color: var(--on-indigo); padding: 52px 0; }
+  .pg-head .dev { font-family: var(--display); font-size: clamp(2.2rem, 6vw, 3.4rem); color: var(--saffron); margin: 0; line-height: 1.25; }
+  .pg-head h1 { color: #fff; margin: 0 0 10px; }
+  .lede { font-size: 1.18rem; margin: 0; max-width: 58ch; }
+  .pg-body { padding-top: 44px; }
+</style>

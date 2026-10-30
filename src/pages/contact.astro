@@ -1,0 +1,9 @@
+---
+import Page from '../layouts/Page.astro';
+import { SITE } from '../data/site';
+---
+<Page title="Contact | Himalayan Yoga Roots" description="Contact Himalayan Yoga Roots with questions, corrections or suggestions." heading="Contact" lede="Questions, corrections and suggestions are all welcome.">
+  <p>Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. We read every message.</p>
+  <p>If you've spotted a mistake, in a translation, a reference or a date, please include the page link. Accuracy matters here, and corrections are always credited if you'd like.</p>
+  <p>For retreats, see <a href="/retreats/">retreats in Nepal</a>.</p>
+</Page>
