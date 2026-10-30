@@ -81,6 +81,6 @@ Every day the pleasant and the good stand in front of you, mixed together. The w
 
 **How we read these stories.** For millions of people these stories are sacred, and true in their own right. What follows isn't "it's only a metaphor". It's the deeper layer that teachers in the tradition have drawn out of them for centuries. Other readings exist, and we note where they differ.
 
-**More stories:** [The churning of the ocean](/stories/churning-of-the-ocean/) · [Nachiketa and Yama](/stories/nachiketa-and-yama/) · [Prahlada and Narasimha](/stories/prahlada-and-narasimha/) · [Shiva and Parvati](/stories/shiva-and-parvati/) · [Ganesha's elephant head](/stories/ganesha-elephant-head/) · [Gajendra moksha](/stories/gajendra-moksha/)
+**More stories:** [The churning of the ocean](/stories/churning-of-the-ocean/) · [Nachiketa and Yama](/stories/nachiketa-and-yama/) · [Prahlada and Narasimha](/stories/prahlada-and-narasimha/) · [Shiva and Parvati](/stories/shiva-and-parvati/) · [Ganesha's elephant head](/stories/ganesha-elephant-head/) · [Gajendra moksha](/stories/gajendra-moksha/) · [Ajamila](/stories/ajamila/)
 
 </div>
