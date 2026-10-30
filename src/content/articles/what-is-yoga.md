@@ -1,6 +1,6 @@
 ---
 title: "What is yoga, really?"
-description: "Not a workout, and not only poses. What the word means, what the oldest texts say yoga is for, and how the yoga you know from class fits into the bigger picture."
+description: "Not a workout, and not only poses. What the word means, the four paths of yoga in the Bhagavad Gita, how Patanjali mapped the path of meditation in eight limbs, and where the yoga class fits."
 section: what-yoga-is
 dev: "योग"
 iast: "yoga"
@@ -9,6 +9,10 @@ updated: 2026-10-30
 order: 1
 startHere: true
 faqs:
+  - q: "What are the four paths of yoga in the Bhagavad Gita?"
+    a: "Jnana yoga (the path of knowledge), karma yoga (selfless action), dhyana yoga (meditation) and bhakti yoga (devotion). The Gita teaches all four as roads to the same freedom, suited to different temperaments."
+  - q: "Did Patanjali invent yoga?"
+    a: "No. Yoga appears earlier in the Upanishads and the Bhagavad Gita. Patanjali's Yoga Sutras open with 'now, the teaching of yoga', a teaching handed on. He took the path of meditation, dhyana yoga, and set it out systematically as eight limbs."
   - q: "What is the real meaning of yoga?"
     a: "The word comes from the Sanskrit root yuj, which means to yoke or join, and also to concentrate or be absorbed. Patanjali's Yoga Sutras define yoga as the stilling of the movements of the mind (yogaś citta-vṛtti-nirodhaḥ, 1.2). The goal is a settled, clear mind and, ultimately, freedom."
   - q: "Is yoga just stretching?"
@@ -22,7 +26,8 @@ faqs:
 sources:
   - title: "Swami Vivekananda, translation and commentary on Patanjali's Yoga Sutras, in Raja Yoga (1896)"
   - title: "Patanjali, Yoga Sutras 1.2–1.3 and 2.29 (Sanskrit text and translation)"
-  - title: "Bhagavad Gita 2.48 and 2.50"
+  - title: "Bhagavad Gita 2.48, 2.50, 4.38, 6.10–6.19 and 9.26"
+  - title: "Katha Upanishad 2.3.11"
   - title: "Mark Singleton, Yoga Body: The Origins of Modern Posture Practice (Oxford University Press, 2010)"
   - title: "David Gordon White, The Yoga Sutra of Patanjali: A Biography (Princeton University Press, 2014)"
 ---
@@ -35,52 +40,39 @@ Ask ten people what yoga is and most will describe a class: a mat, a sequence of
 
 It isn't, in its origins, a word about the body at all.
 
-## The classic definition
+## Yoga is older than Patanjali
 
-The most quoted definition comes from Patanjali's *Yoga Sutras*, compiled around the early centuries CE. In the second sutra, Patanjali states what yoga is in four words:
+Many people meet yoga through Patanjali's *Yoga Sutras*, and it's easy to assume he invented it. He didn't. Yoga was taught long before him: in the Upanishads, in the epics, and above all in the *Bhagavad Gita*, which most scholars date earlier than the *Yoga Sutras*.
 
-<div class="verse">
-<p class="dev" lang="sa">योगश्चित्तवृत्तिनिरोधः</p>
-<p class="iast">yogaś citta-vṛtti-nirodhaḥ</p>
-<p class="tr">Yoga is the stilling of the movements of the mind.</p>
-<p class="viv">Swami Vivekananda: “Yoga is restraining the mind-stuff (Chitta) from taking various forms (Vrttis).”</p>
-<p class="ref">Yoga Sutras 1.2</p>
-</div>
-
-*Citta* is the mind-field, what Swami Vivekananda called the "mind-stuff". *Vṛtti* is its constant turning (thoughts, memories, reactions, daydreams); Vivekananda notes the word literally means a whirlpool. *Nirodha* is their settling.
-
-The very next sutra says what happens then:
+The *Katha Upanishad*, one of the oldest texts to use the word, already defines it:
 
 <div class="verse">
-<p class="dev" lang="sa">तदा द्रष्टुः स्वरूपेऽवस्थानम्</p>
-<p class="iast">tadā draṣṭuḥ svarūpe 'vasthānam</p>
-<p class="tr">Then the seer rests in its own nature.</p>
-<p class="viv">Swami Vivekananda: “At that time (the time of concentration) the seer (the Purusa) rests in his own (unmodified) state.”</p>
-<p class="ref">Yoga Sutras 1.3</p>
+<p class="dev" lang="sa">तां योगमिति मन्यन्ते स्थिरामिन्द्रियधारणाम्</p>
+<p class="iast">tāṃ yogam iti manyante sthirām indriya-dhāraṇām</p>
+<p class="tr">This steady holding of the senses is what they call yoga.</p>
+<p class="ref">Katha Upanishad 2.3.11</p>
 </div>
 
-Vivekananda explains both sutras with the image of a lake. When its surface is covered in ripples, you can't see the bottom. When the water is clear and still, you can. The lake is the mind, the ripples are its thoughts, and the bottom is your own true self. When the mental noise quietens, you see clearly what you are. We go through both sutras word by word in [Patanjali's definition of yoga](/the-texts/patanjali-definition-of-yoga/). Who that "seer" is turns out to be the central question of the whole tradition. A famous verse from Vedanta walks you to it in four steps, which we follow in [the seer and the seen](/the-texts/seer-and-the-seen/).
+Patanjali's own first sutra admits as much. He opens with *atha yogānuśāsanam*, "now, the teaching of yoga", and *anuśāsana* means a teaching handed on, not a new one. What Patanjali did was gather one path of an existing tradition, the path of meditation, and set it out with extraordinary precision.
 
-That's the point of yoga in its classical form. Flexibility, strength and calm are welcome side effects. The aim is a still, clear mind and, beyond it, freedom (*kaivalya*).
+## The four paths of yoga in the Bhagavad Gita
 
-## Yoga is a path, and posture is one step
+The *Gita* doesn't describe one yoga. It describes several roads to the same freedom, suited to different people. Four stand out, and later teachers, Swami Vivekananda most famously, presented them as the four paths of yoga.
 
-Patanjali lays out a path of eight limbs (*aṣṭāṅga*) to get there:
+### Jñāna yoga: the path of knowledge
 
-1. **Yama:** ethical restraints, starting with non-harm and truthfulness
-2. **Niyama:** personal disciplines such as cleanliness, contentment and self-study
-3. **Asana:** a steady, comfortable seat
-4. **Pranayama:** working with the breath
-5. **Pratyahara:** drawing the senses inward
-6. **Dharana:** concentration
-7. **Dhyana:** meditation
-8. **Samadhi:** absorption
+The yoga of understanding: discerning what is real from what only appears, the self from the body and mind. It's the path of the questioner.
 
-Asana is third, and in the Yoga Sutras it gets three short verses. Its job is to let you sit still and comfortably long enough for the inner limbs to happen. We go through each limb in [the eight limbs of yoga, explained simply](/what-yoga-is/eight-limbs-of-yoga/).
+<div class="verse">
+<p class="dev" lang="sa">न हि ज्ञानेन सदृशं पवित्रमिह विद्यते</p>
+<p class="iast">na hi jñānena sadṛśaṃ pavitram iha vidyate</p>
+<p class="tr">There is nothing in this world as purifying as knowledge.</p>
+<p class="ref">Bhagavad Gita 4.38</p>
+</div>
 
-## Other definitions from the tradition
+### Karma yoga: the path of action
 
-Patanjali isn't the only voice. The *Bhagavad Gita*, probably composed a little earlier, offers two of the most loved definitions:
+The yoga of doing your work fully and well, without being bound by its results. The Gita gives two of its most loved definitions of yoga here:
 
 <div class="verse">
 <p class="dev" lang="sa">समत्वं योग उच्यते</p>
@@ -96,7 +88,66 @@ Patanjali isn't the only voice. The *Bhagavad Gita*, probably composed a little 
 <p class="ref">Bhagavad Gita 2.50</p>
 </div>
 
-Here yoga is a way of living: acting fully and well, without being thrown about by success and failure. The Gita describes several paths, among them the yoga of action (*karma*), of devotion (*bhakti*), of knowledge (*jñāna*) and of meditation (*dhyāna*). None of them is about stretching. We explain each one, and which might suit you, in [the four paths of yoga](/what-yoga-is/four-paths-of-yoga/).
+### Dhyāna yoga: the path of meditation
+
+The yoga of stilling the mind directly. The Gita's sixth chapter, often titled *Dhyāna Yoga*, teaches it: a clean, quiet place, a firm seat, body, head and neck held straight, the senses drawn in and the mind fixed within, until it no longer flickers:
+
+<div class="verse">
+<p class="dev" lang="sa">यथा दीपो निवातस्थो नेङ्गते सोपमा स्मृता</p>
+<p class="iast">yathā dīpo nivātastho neṅgate sopamā smṛtā</p>
+<p class="tr">As a lamp in a windless place does not flicker: that is the image of the yogi's controlled mind.</p>
+<p class="ref">Bhagavad Gita 6.19</p>
+</div>
+
+### Bhakti yoga: the path of devotion
+
+The yoga of love: turning the heart wholly toward the divine through prayer, worship, chanting and remembrance. The Gita says even the smallest offering is enough when it's given with love:
+
+<div class="verse">
+<p class="dev" lang="sa">पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति</p>
+<p class="iast">patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati</p>
+<p class="tr">A leaf, a flower, a fruit, a little water: whoever offers it to me with devotion…</p>
+<p class="ref">Bhagavad Gita 9.26</p>
+</div>
+
+None of these four is about stretching. We go into each, and which might suit you, in [the four paths of yoga](/what-yoga-is/four-paths-of-yoga/).
+
+## Patanjali: dhyāna yoga in eight limbs
+
+Patanjali's *Yoga Sutras*, compiled around the early centuries CE, take the path of meditation and turn it into a complete, step-by-step method. His definition of yoga is the most quoted of all:
+
+<div class="verse">
+<p class="dev" lang="sa">योगश्चित्तवृत्तिनिरोधः</p>
+<p class="iast">yogaś citta-vṛtti-nirodhaḥ</p>
+<p class="tr">Yoga is the stilling of the movements of the mind.</p>
+<p class="viv">Swami Vivekananda: “Yoga is restraining the mind-stuff (Chitta) from taking various forms (Vrttis).”</p>
+<p class="ref">Yoga Sutras 1.2</p>
+</div>
+
+*Citta* is the mind-field, what Swami Vivekananda called the "mind-stuff". *Vṛtti* is its constant turning (thoughts, memories, reactions, daydreams); Vivekananda notes the word literally means a whirlpool. *Nirodha* is their settling. The very next sutra says what happens then:
+
+<div class="verse">
+<p class="dev" lang="sa">तदा द्रष्टुः स्वरूपेऽवस्थानम्</p>
+<p class="iast">tadā draṣṭuḥ svarūpe 'vasthānam</p>
+<p class="tr">Then the seer rests in its own nature.</p>
+<p class="viv">Swami Vivekananda: “At that time (the time of concentration) the seer (the Purusa) rests in his own (unmodified) state.”</p>
+<p class="ref">Yoga Sutras 1.3</p>
+</div>
+
+Vivekananda explains both sutras with the image of a lake. When its surface is covered in ripples, you can't see the bottom. When the water is clear and still, you can. The lake is the mind, the ripples are its thoughts, and the bottom is your own true self. We go through both sutras word by word in [Patanjali's definition of yoga](/the-texts/patanjali-definition-of-yoga/).
+
+To get there, Patanjali sets out eight limbs (*aṣṭāṅga*):
+
+1. **Yama:** ethical restraints, starting with non-harm and truthfulness
+2. **Niyama:** personal disciplines such as cleanliness, contentment and self-study
+3. **Asana:** a steady, comfortable seat
+4. **Pranayama:** working with the breath
+5. **Pratyahara:** drawing the senses inward
+6. **Dharana:** concentration
+7. **Dhyana:** meditation
+8. **Samadhi:** absorption
+
+Asana is third, and in the Yoga Sutras it gets three short verses. Its job is to let you sit still and comfortably long enough for the inner limbs to happen. We go through each limb in [the eight limbs of yoga, explained simply](/what-yoga-is/eight-limbs-of-yoga/).
 
 Later, from around the 11th century, the **hatha yoga** traditions, many of them linked to the Nath yogis of the Himalaya, developed postures, breath practices and cleansing techniques in far more detail. Even then, the body was a vehicle for the same inner goal. The *Hatha Yoga Pradipika* says plainly that hatha yoga exists as a ladder to raja yoga, the yoga of the mind.
 
@@ -108,7 +159,7 @@ None of that makes a class worthless. It's often how people first feel what yoga
 
 <div class="aside">
 
-**If you only remember one thing:** yoga, as the tradition defines it, is about the mind. Postures, breath and ethics are tools to settle it, and a settled mind is the point.
+**If you only remember one thing:** yoga is older than Patanjali and wider than posture. The Gita teaches four paths, knowledge, action, meditation and devotion. Patanjali mapped the path of meditation in eight limbs, and posture is one step on it.
 
 </div>
 
@@ -116,7 +167,7 @@ None of that makes a class worthless. It's often how people first feel what yoga
 
 - [Patanjali's definition of yoga: Yoga Sutras 1.2 and 1.3](/the-texts/patanjali-definition-of-yoga/)
 - [The eight limbs of yoga, explained simply](/what-yoga-is/eight-limbs-of-yoga/)
-- [Karma, bhakti, raja and jnana: the four paths of yoga](/what-yoga-is/four-paths-of-yoga/)
+- [Jnana, karma, dhyana and bhakti: the four paths of yoga](/what-yoga-is/four-paths-of-yoga/)
 - [The seer and the seen: one verse that explains what yoga is for](/the-texts/seer-and-the-seen/)
 - [Is yoga just exercise?](/lost-in-translation/is-yoga-just-exercise/)
 - [What the Yoga Sutras actually say about asana](/the-texts/yoga-sutras-on-asana/)

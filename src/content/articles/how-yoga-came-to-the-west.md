@@ -90,5 +90,5 @@ None of this makes a posture class wrong. It's often a doorway, and many people 
 ## Where to go next
 
 - [Is yoga just exercise?](/lost-in-translation/is-yoga-just-exercise/)
-- [Karma, bhakti, raja and jnana: the four paths of yoga](/what-yoga-is/four-paths-of-yoga/)
+- [Jnana, karma, dhyana and bhakti: the four paths of yoga](/what-yoga-is/four-paths-of-yoga/)
 - [Is yoga a religion?](/lost-in-translation/is-yoga-a-religion/)

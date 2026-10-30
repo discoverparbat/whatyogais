@@ -131,6 +131,6 @@ This article draws on [the first class of Swami Sarvapriyananda's *Introduction 
 ## Where to go next
 
 - [What is yoga, really?](/what-yoga-is/what-is-yoga/)
-- [Karma, bhakti, raja and jnana: the four paths of yoga](/what-yoga-is/four-paths-of-yoga/)
+- [Jnana, karma, dhyana and bhakti: the four paths of yoga](/what-yoga-is/four-paths-of-yoga/)
 - [Witness meditation: a simple way to try this yourself](/beyond-the-mat/witness-meditation/)
 - [Patanjali's definition of yoga: Yoga Sutras 1.2 and 1.3](/the-texts/patanjali-definition-of-yoga/)

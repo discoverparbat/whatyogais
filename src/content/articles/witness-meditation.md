@@ -83,6 +83,6 @@ Patanjali defines yoga as the stilling of the mind's movements, and says that th
 ## Where to go next
 
 - [The seer and the seen: one verse that explains what yoga is for](/the-texts/seer-and-the-seen/)
-- [Karma, bhakti, raja and jnana: the four paths of yoga](/what-yoga-is/four-paths-of-yoga/)
+- [Jnana, karma, dhyana and bhakti: the four paths of yoga](/what-yoga-is/four-paths-of-yoga/)
 - [The eight limbs of yoga, explained simply](/what-yoga-is/eight-limbs-of-yoga/)
 - [Practice and non-attachment: the two wings of yoga](/beyond-the-mat/practice-and-non-attachment/)

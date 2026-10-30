@@ -1,12 +1,12 @@
 ---
 title: "The eight limbs of yoga, explained simply"
-description: "Patanjali's eight-limbed path, one limb at a time: what each means, what it looks like in everyday practice, and why posture is only the third step."
+description: "Patanjali's map of dhyana yoga, the path of meditation, one limb at a time: what each means, what it looks like in everyday practice, and why posture is only the third step."
 section: what-yoga-is
 dev: "अष्टाङ्ग"
 iast: "aṣṭāṅga"
 published: 2026-10-30
 updated: 2026-10-30
-order: 2
+order: 3
 startHere: true
 faqs:
   - q: "What are the eight limbs of yoga?"
@@ -23,7 +23,9 @@ sources:
   - title: "Edwin F. Bryant, The Yoga Sutras of Patanjali (North Point Press, 2009)"
 ---
 
-In the second chapter of the *Yoga Sutras*, Patanjali gives a practical path to the still mind he defined at the start. It has eight parts, which is why it's called *aṣṭāṅga*, "eight-limbed".
+Yoga didn't begin with Patanjali. The *Bhagavad Gita* had already taught four paths of yoga: knowledge (*jñāna*), action (*karma*), meditation (*dhyāna*) and devotion (*bhakti*). We explain all four in [the four paths of yoga](/what-yoga-is/four-paths-of-yoga/). What Patanjali did was take one of them, the path of meditation, and set it out as a precise method.
+
+In the second chapter of the *Yoga Sutras*, he gives that method: a practical path to the still mind he defined at the start. It has eight parts, which is why it's called *aṣṭāṅga*, "eight-limbed".
 
 <div class="verse">
 <p class="dev" lang="sa">यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि</p>
