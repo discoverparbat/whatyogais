@@ -25,7 +25,7 @@ npm run dev
   </div>
   ```
 - `src/data/site.ts`: site name, email and the five sections.
-- `src/styles/global.css`: design tokens (Kailash indigo, snow, glacier, slate, saffron; Tiro Devanagari
+- `src/styles/global.css`: design tokens (ākāśa night violet, moonlight, lavender mist, slate, Sahasrara violet accent; Tiro Devanagari
   Sanskrit + Hanken Grotesk).
 - `src/pages/`: home, section hubs, about, retreats, contact, privacy, terms.
 

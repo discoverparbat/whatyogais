@@ -1,18 +1,19 @@
 /* Himalayan Yoga Roots — design tokens
-   Pre-dawn Himalayan palette: deep Kailash indigo, cool snow, glacier blue, slate,
-   and one accent, sadhu saffron, used sparingly. */
+   Ākāśa palette: the deep violet-indigo of the night sky (vastness), moonlight white
+   (Sahasrara in the traditional texts: "whiter than the full moon") and Sahasrara violet
+   (its colour in the modern chakra system) as the one accent. */
 :root {
-  --indigo: #1D2740;      /* night sky over the range: header, hero, footer, headings */
-  --indigo-2: #2A3657;    /* raised surfaces on indigo */
-  --snow: #F6F8FB;        /* page background (cool, not cream) */
-  --glacier: #E3EAF3;     /* quiet section background */
-  --slate: #55607A;       /* secondary text */
-  --ink: #1A2133;         /* body text */
-  --saffron: #C98A0B;     /* the one accent */
-  --saffron-deep: #9A6800;/* accent text on light backgrounds (AA contrast) */
-  --line: #CDD6E3;
-  --on-indigo: #E9EEF6;
-  --on-indigo-muted: #A9B4C9;
+  --indigo: #1B1838;      /* ākāśa, the night sky: header, hero, footer, headings */
+  --indigo-2: #2C2757;    /* raised surfaces on the night sky */
+  --snow: #F7F6FB;        /* moonlight: page background */
+  --glacier: #ECE8F6;     /* lavender mist: quiet section background */
+  --slate: #5C5873;       /* secondary text */
+  --ink: #1E1B2E;         /* body text */
+  --saffron: #A98BEA;     /* Sahasrara violet: the one accent, on dark backgrounds */
+  --saffron-deep: #5B3FA8;/* deep violet: accent on light backgrounds (AA contrast) */
+  --line: #D9D4EA;
+  --on-indigo: #EEEBF8;
+  --on-indigo-muted: #B3ACD0;
 
   --display: 'Tiro Devanagari Sanskrit', 'Iowan Old Style', Georgia, serif;
   --text: 'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif;
