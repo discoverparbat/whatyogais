@@ -7,7 +7,7 @@ const articles = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    section: z.enum(['what-yoga-is', 'beyond-the-mat', 'lost-in-translation', 'the-texts', 'himalayan-roots']),
+    section: z.enum(['what-yoga-is', 'beyond-the-mat', 'lost-in-translation', 'the-texts', 'stories', 'himalayan-roots']),
     dev: z.string().optional(),   // headline Sanskrit term in Devanagari
     iast: z.string().optional(),  // its transliteration
     published: z.coerce.date(),
