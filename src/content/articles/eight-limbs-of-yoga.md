@@ -18,6 +18,7 @@ faqs:
   - q: "What are the yamas and niyamas?"
     a: "The five yamas are non-harm (ahimsa), truthfulness (satya), not stealing (asteya), moderation of desire (brahmacharya) and non-possessiveness (aparigraha). The five niyamas are cleanliness (shaucha), contentment (santosha), discipline (tapas), self-study (svadhyaya) and surrender to the divine (ishvara pranidhana)."
 sources:
+  - title: "Swami Vivekananda, translation and commentary on Patanjali's Yoga Sutras, in Raja Yoga (1896)"
   - title: "Patanjali, Yoga Sutras 2.29–3.3 (Sanskrit text and translation)"
   - title: "Edwin F. Bryant, The Yoga Sutras of Patanjali (North Point Press, 2009)"
 ---
@@ -28,6 +29,7 @@ In the second chapter of the *Yoga Sutras*, Patanjali gives a practical path to 
 <p class="dev" lang="sa">यमनियमासनप्राणायामप्रत्याहारधारणाध्यानसमाधयोऽष्टावङ्गानि</p>
 <p class="iast">yama-niyama-āsana-prāṇāyāma-pratyāhāra-dhāraṇā-dhyāna-samādhayo ’ṣṭāv aṅgāni</p>
 <p class="tr">Restraint, discipline, posture, breath regulation, withdrawal of the senses, concentration, meditation and absorption are the eight limbs.</p>
+<p class="viv">Swami Vivekananda: “Yama, Niyama, Asana, Pranayama, Pratyahara, Dharana, Dhyana, Samadhi, are the limbs of Yoga.”</p>
 <p class="ref">Yoga Sutras 2.29</p>
 </div>
 
@@ -95,3 +97,4 @@ If you go to a yoga class, you're already practising part of limb three, and pro
 - [Is yoga just exercise?](/lost-in-translation/is-yoga-just-exercise/)
 - [Yamas and niyamas: yoga's ethics, the first two limbs](/what-yoga-is/yamas-and-niyamas/)
 - [Pranayama: what breathwork really is](/beyond-the-mat/pranayama/)
+- [Patanjali's definition of yoga: Yoga Sutras 1.2 and 1.3](/the-texts/patanjali-definition-of-yoga/)

@@ -16,6 +16,7 @@ faqs:
   - q: "Is it wrong to do yoga just for fitness?"
     a: "No. Moving well, breathing well and feeling calmer are all good things. It's simply worth knowing that posture practice is a small part of a much larger tradition, so you know what else is there if you want it."
 sources:
+  - title: "Swami Vivekananda, translation and commentary on Patanjali's Yoga Sutras, in Raja Yoga (1896)"
   - title: "Mark Singleton, Yoga Body: The Origins of Modern Posture Practice (Oxford University Press, 2010)"
   - title: "Elizabeth De Michelis, A History of Modern Yoga (Continuum, 2004)"
   - title: "Swami Vivekananda, Raja Yoga (1896)"
@@ -67,6 +68,7 @@ Patanjali's teaching on posture is just this:
 <p class="dev" lang="sa">स्थिरसुखमासनम्</p>
 <p class="iast">sthira-sukham āsanam</p>
 <p class="tr">Posture should be steady and easy.</p>
+<p class="viv">Swami Vivekananda: “Posture is that which is firm and pleasant.”</p>
 <p class="ref">Yoga Sutras 2.46</p>
 </div>
 

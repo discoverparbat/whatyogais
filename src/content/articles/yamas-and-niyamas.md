@@ -17,6 +17,7 @@ faqs:
   - q: "Does brahmacharya mean celibacy?"
     a: "Traditionally, yes. Classical commentaries read it as restraint of sexual activity, and for monks it means celibacy. Many modern teachers of householders read it as moderation and faithfulness, using sexual energy with care rather than giving it up."
 sources:
+  - title: "Swami Vivekananda, translation and commentary on Patanjali's Yoga Sutras, in Raja Yoga (1896)"
   - title: "Patanjali, Yoga Sutras 2.29–2.45, with the Yoga Bhashya attributed to Vyasa"
   - title: "Edwin F. Bryant, The Yoga Sutras of Patanjali (North Point Press, 2009)"
 ---
@@ -31,6 +32,7 @@ That isn't moralising. It's practical. A mind busy with lies, grudges, greed and
 <p class="dev" lang="sa">अहिंसासत्यास्तेयब्रह्मचर्यापरिग्रहा यमाः</p>
 <p class="iast">ahiṃsā-satyāsteya-brahmacaryāparigrahā yamāḥ</p>
 <p class="tr">Non-harm, truthfulness, not stealing, sexual restraint and not grasping are the yamas.</p>
+<p class="viv">Swami Vivekananda: “Non-killing, truthfulness, non-stealing, continence, and non-receiving, are called Yama.”</p>
 <p class="ref">Yoga Sutras 2.30</p>
 </div>
 
@@ -62,6 +64,7 @@ Not hoarding, not clinging to possessions or to more than you need. **The sutra 
 <p class="dev" lang="sa">शौचसन्तोषतपःस्वाध्यायेश्वरप्रणिधानानि नियमाः</p>
 <p class="iast">śauca-santoṣa-tapaḥ-svādhyāyeśvara-praṇidhānāni niyamāḥ</p>
 <p class="tr">Cleanliness, contentment, discipline, self-study and surrender to the Lord are the niyamas.</p>
+<p class="viv">Swami Vivekananda: “Internal and external purification, contentment, mortification, study, and worship of God, are the Niyamas.”</p>
 <p class="ref">Yoga Sutras 2.32</p>
 </div>
 
@@ -93,6 +96,7 @@ Patanjali is realistic. He knows angry, greedy and dishonest thoughts will come.
 <p class="dev" lang="sa">वितर्कबाधने प्रतिपक्षभावनम्</p>
 <p class="iast">vitarka-bādhane pratipakṣa-bhāvanam</p>
 <p class="tr">When troubled by harmful thoughts, cultivate their opposite.</p>
+<p class="viv">Swami Vivekananda: “To obstruct thoughts which are inimical to Yoga contrary thoughts will be brought.”</p>
 <p class="ref">Yoga Sutras 2.33</p>
 </div>
 
@@ -120,3 +124,4 @@ You'll find, as Patanjali promised, that the mind gets quieter. That quiet is wh
 - [The eight limbs of yoga, explained simply](/what-yoga-is/eight-limbs-of-yoga/)
 - [Karma, bhakti, raja and jnana: the four paths of yoga](/what-yoga-is/four-paths-of-yoga/)
 - [Pranayama: what breathwork really is](/beyond-the-mat/pranayama/)
+- [The five kleshas: Patanjali on why we suffer](/the-texts/five-kleshas/)

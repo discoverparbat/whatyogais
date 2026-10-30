@@ -17,6 +17,7 @@ faqs:
   - q: "Is pranayama safe?"
     a: "Gentle practices such as slow breathing and alternate-nostril breathing are safe for most people. The Hatha Yoga Pradipika itself warns that forceful practice done wrongly causes illness. Avoid breath retention and rapid breathing if you are pregnant or have heart, lung or blood pressure problems, and never practise them in water or while driving."
 sources:
+  - title: "Swami Vivekananda, translation and commentary on Patanjali's Yoga Sutras, in Raja Yoga (1896)"
   - title: "Patanjali, Yoga Sutras 2.49–2.53"
   - title: "Svatmarama, Hatha Yoga Pradipika, chapter 2"
   - title: "Bhagavad Gita 4.29"
@@ -36,6 +37,7 @@ The *Yoga Sutras* give pranayama five short sutras, right after posture:
 <p class="dev" lang="sa">तस्मिन्सति श्वासप्रश्वासयोर्गतिविच्छेदः प्राणायामः</p>
 <p class="iast">tasmin sati śvāsa-praśvāsayor gati-vicchedaḥ prāṇāyāmaḥ</p>
 <p class="tr">Once posture is steady, pranayama is the regulation of the flow of inhalation and exhalation.</p>
+<p class="viv">Swami Vivekananda: “Controlling the motion of the exhalation and the inhalation follows after this.”</p>
 <p class="ref">Yoga Sutras 2.49</p>
 </div>
 

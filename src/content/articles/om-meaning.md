@@ -18,6 +18,7 @@ faqs:
   - q: "Is Om religious?"
     a: "Om is sacred in Hindu, Buddhist and Jain traditions, and it carries religious meaning for many people. It can also be used simply as a sound for concentration. Using it with an understanding of where it comes from is the respectful approach."
 sources:
+  - title: "Swami Vivekananda, translation and commentary on Patanjali's Yoga Sutras, in Raja Yoga (1896)"
   - title: "Mandukya Upanishad"
   - title: "Patanjali, Yoga Sutras 1.27–1.29"
   - title: "Bhagavad Gita 8.13"
@@ -50,6 +51,7 @@ Patanjali brings Om into yoga directly, in the first chapter:
 <p class="dev" lang="sa">तस्य वाचकः प्रणवः</p>
 <p class="iast">tasya vācakaḥ praṇavaḥ</p>
 <p class="tr">The word that expresses it [Īśvara, the divine] is Om (praṇava).</p>
+<p class="viv">Swami Vivekananda: “His manifesting word is Om.”</p>
 <p class="ref">Yoga Sutras 1.27</p>
 </div>
 
@@ -57,6 +59,7 @@ Patanjali brings Om into yoga directly, in the first chapter:
 <p class="dev" lang="sa">तज्जपस्तदर्थभावनम्</p>
 <p class="iast">taj-japas tad-artha-bhāvanam</p>
 <p class="tr">Repeat it, and dwell on its meaning.</p>
+<p class="viv">Swami Vivekananda: “The repetition of this (Om) and meditating on its meaning (is the way).”</p>
 <p class="ref">Yoga Sutras 1.28</p>
 </div>
 

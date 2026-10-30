@@ -20,6 +20,7 @@ faqs:
   - q: "Who is the seer in yoga?"
     a: "The seer (draṣṭṛ) is the awareness that knows the body and the mind. Because it knows them, it isn't one of them. The Yoga Sutras say suffering comes from confusing the seer with what it sees (2.17), and that yoga lets the seer rest in its own nature (1.3)."
 sources:
+  - title: "Swami Vivekananda, translation and commentary on Patanjali's Yoga Sutras, in Raja Yoga (1896)"
   - title: "Patanjali, Yoga Sutras 1.2–1.3 and 2.29 (Sanskrit text and translation)"
   - title: "Bhagavad Gita 2.48 and 2.50"
   - title: "Mark Singleton, Yoga Body: The Origins of Modern Posture Practice (Oxford University Press, 2010)"
@@ -42,10 +43,23 @@ The most quoted definition comes from Patanjali's *Yoga Sutras*, compiled around
 <p class="dev" lang="sa">योगश्चित्तवृत्तिनिरोधः</p>
 <p class="iast">yogaś citta-vṛtti-nirodhaḥ</p>
 <p class="tr">Yoga is the stilling of the movements of the mind.</p>
+<p class="viv">Swami Vivekananda: “Yoga is restraining the mind-stuff (Chitta) from taking various forms (Vrttis).”</p>
 <p class="ref">Yoga Sutras 1.2</p>
 </div>
 
-*Citta* is the mind-field, *vṛtti* its constant turning (thoughts, memories, reactions, daydreams), and *nirodha* their settling. The very next sutra says what happens then: "the seer rests in its own nature." When the mental noise quietens, you see clearly what you are. Who that "seer" is turns out to be the central question of the whole tradition. A famous verse from Vedanta walks you to it in four steps, which we follow in [the seer and the seen](/the-texts/seer-and-the-seen/).
+*Citta* is the mind-field, what Swami Vivekananda called the "mind-stuff". *Vṛtti* is its constant turning (thoughts, memories, reactions, daydreams); Vivekananda notes the word literally means a whirlpool. *Nirodha* is their settling.
+
+The very next sutra says what happens then:
+
+<div class="verse">
+<p class="dev" lang="sa">तदा द्रष्टुः स्वरूपेऽवस्थानम्</p>
+<p class="iast">tadā draṣṭuḥ svarūpe 'vasthānam</p>
+<p class="tr">Then the seer rests in its own nature.</p>
+<p class="viv">Swami Vivekananda: “At that time (the time of concentration) the seer (the Purusa) rests in his own (unmodified) state.”</p>
+<p class="ref">Yoga Sutras 1.3</p>
+</div>
+
+Vivekananda explains both sutras with the image of a lake. When its surface is covered in ripples, you can't see the bottom. When the water is clear and still, you can. The lake is the mind, the ripples are its thoughts, and the bottom is your own true self. When the mental noise quietens, you see clearly what you are. We go through both sutras word by word in [Patanjali's definition of yoga](/the-texts/patanjali-definition-of-yoga/). Who that "seer" is turns out to be the central question of the whole tradition. A famous verse from Vedanta walks you to it in four steps, which we follow in [the seer and the seen](/the-texts/seer-and-the-seen/).
 
 That's the point of yoga in its classical form. Flexibility, strength and calm are welcome side effects. The aim is a still, clear mind and, beyond it, freedom (*kaivalya*).
 
@@ -100,6 +114,7 @@ None of that makes a class worthless. It's often how people first feel what yoga
 
 ## Where to go next
 
+- [Patanjali's definition of yoga: Yoga Sutras 1.2 and 1.3](/the-texts/patanjali-definition-of-yoga/)
 - [The eight limbs of yoga, explained simply](/what-yoga-is/eight-limbs-of-yoga/)
 - [Karma, bhakti, raja and jnana: the four paths of yoga](/what-yoga-is/four-paths-of-yoga/)
 - [The seer and the seen: one verse that explains what yoga is for](/the-texts/seer-and-the-seen/)

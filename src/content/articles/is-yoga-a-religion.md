@@ -17,6 +17,7 @@ faqs:
   - q: "Does yoga require believing in God?"
     a: "No. The Yoga Sutras recommend devotion to Ishvara, the Lord, as one path to samadhi, but define Ishvara in very general terms and offer other methods too. Some classical commentators read the system as theistic; its sister philosophy, Samkhya, has no creator god at all."
 sources:
+  - title: "Swami Vivekananda, translation and commentary on Patanjali's Yoga Sutras, in Raja Yoga (1896)"
   - title: "Patanjali, Yoga Sutras 1.23–1.29 and 2.45"
   - title: "Sedlock v. Baird, California Court of Appeal (2015)"
     url: "https://caselaw.findlaw.com/ca-court-of-appeal/1696669.html"
@@ -61,6 +62,7 @@ The *Yoga Sutras* do mention a Lord, **Īśvara**, and recommend devotion to him
 <p class="dev" lang="sa">ईश्वरप्रणिधानाद्वा</p>
 <p class="iast">īśvara-praṇidhānād vā</p>
 <p class="tr">Or [samādhi comes] through devotion to the Lord.</p>
+<p class="viv">Swami Vivekananda: “Or by devotion to Isvara.”</p>
 <p class="ref">Yoga Sutras 1.23</p>
 </div>
 

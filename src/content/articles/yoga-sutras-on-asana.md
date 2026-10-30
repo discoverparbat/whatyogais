@@ -15,6 +15,7 @@ faqs:
   - q: "Which poses are mentioned in the Yoga Sutras?"
     a: "None. The oldest commentary, attributed to Vyasa, lists examples, and they're nearly all seated postures for meditation, such as the lotus (padmāsana) and hero (vīrāsana) poses."
 sources:
+  - title: "Swami Vivekananda, translation and commentary on Patanjali's Yoga Sutras, in Raja Yoga (1896)"
   - title: "Patanjali, Yoga Sutras 2.46–2.48, with the Yoga Bhashya attributed to Vyasa"
   - title: "Edwin F. Bryant, The Yoga Sutras of Patanjali (North Point Press, 2009)"
   - title: "Svatmarama, Hatha Yoga Pradipika, chapter 1"
@@ -28,6 +29,7 @@ There are 196 sutras in Patanjali's *Yoga Sutras*, the text most often cited as 
 <p class="dev" lang="sa">स्थिरसुखमासनम्</p>
 <p class="iast">sthira-sukham āsanam</p>
 <p class="tr">Posture should be steady and easy.</p>
+<p class="viv">Swami Vivekananda: “Posture is that which is firm and pleasant.”</p>
 <p class="ref">Yoga Sutras 2.46</p>
 </div>
 
@@ -37,6 +39,7 @@ There are 196 sutras in Patanjali's *Yoga Sutras*, the text most often cited as 
 <p class="dev" lang="sa">प्रयत्नशैथिल्यानन्तसमापत्तिभ्याम्</p>
 <p class="iast">prayatna-śaithilya-ananta-samāpattibhyām</p>
 <p class="tr">It comes through relaxing effort and resting the mind on the infinite.</p>
+<p class="viv">Swami Vivekananda: “By slight effort and meditating on the unlimited (posture becomes firm and pleasant).”</p>
 <p class="ref">Yoga Sutras 2.47</p>
 </div>
 
@@ -46,6 +49,7 @@ The way to a good posture isn't more effort but less: letting go of unnecessary 
 <p class="dev" lang="sa">ततो द्वन्द्वानभिघातः</p>
 <p class="iast">tato dvandva-anabhighātaḥ</p>
 <p class="tr">From that, one is no longer disturbed by the pairs of opposites.</p>
+<p class="viv">Swami Vivekananda: “Seat being conquered, the dualities do not obstruct.”</p>
 <p class="ref">Yoga Sutras 2.48</p>
 </div>
 

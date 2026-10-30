@@ -18,6 +18,7 @@ faqs:
   - q: "How is this connected to yoga?"
     a: "The Yoga Sutras use the same words. Yoga Sutra 1.3 says that when the mind is still, the seer (draṣṭṛ) rests in its own nature, and 2.17 says that suffering comes from confusing the seer with the seen. Patanjali's yoga and Vedanta explain the seer differently, but both say freedom begins with telling the two apart."
 sources:
+  - title: "Swami Vivekananda, translation and commentary on Patanjali's Yoga Sutras, in Raja Yoga (1896)"
   - title: "Drg-Drsya Viveka, verse 1 (Sanskrit text), with Swami Nikhilananda's translation"
   - title: "Swami Sarvapriyananda, Introduction to Vedanta, Part 1, on Drg-Drsya Viveka verse 1 (Vedanta Society of Southern California, 12 January 2016)"
     url: "https://www.youtube.com/watch?v=jx7O2zDqi6I"
@@ -81,6 +82,7 @@ Because Patanjali uses the same words. Right after defining yoga as the stilling
 <p class="dev" lang="sa">तदा द्रष्टुः स्वरूपेऽवस्थानम्</p>
 <p class="iast">tadā draṣṭuḥ svarūpe 'vasthānam</p>
 <p class="tr">Then the seer rests in its own nature.</p>
+<p class="viv">Swami Vivekananda: “At that time (the time of concentration) the seer (the Purusa) rests in his own (unmodified) state.”</p>
 <p class="ref">Yoga Sutras 1.3</p>
 </div>
 
@@ -90,6 +92,7 @@ And the next sutra says what happens the rest of the time: the seer takes on the
 <p class="dev" lang="sa">द्रष्टृदृश्ययोः संयोगो हेयहेतुः</p>
 <p class="iast">draṣṭṛ-dṛśyayoḥ saṃyogo heya-hetuḥ</p>
 <p class="tr">The cause of the suffering to be avoided is the conjunction of the seer and the seen.</p>
+<p class="viv">Swami Vivekananda: “The cause of that which is to be avoided is the junction of the seer and the seen.”</p>
 <p class="ref">Yoga Sutras 2.17</p>
 </div>
 
@@ -130,3 +133,4 @@ This article draws on [the first class of Swami Sarvapriyananda's *Introduction 
 - [What is yoga, really?](/what-yoga-is/what-is-yoga/)
 - [Karma, bhakti, raja and jnana: the four paths of yoga](/what-yoga-is/four-paths-of-yoga/)
 - [Witness meditation: a simple way to try this yourself](/beyond-the-mat/witness-meditation/)
+- [Patanjali's definition of yoga: Yoga Sutras 1.2 and 1.3](/the-texts/patanjali-definition-of-yoga/)
