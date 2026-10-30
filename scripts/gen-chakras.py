@@ -1,74 +1,41 @@
-# Generates src/components/Chakras.astro: the seven chakras as a column, Muladhara at the
-# base and the thousand-petalled Sahasrara as the crown. Petal counts, element shapes and
-# seed syllables follow the Sat-cakra-nirupana. Run: python3 scripts/gen-chakras.py
-import math
-W, H, CX = 700, 1500, 350
-V, M = '#A98BEA', '#EEEBF8'
+# Generates src/data/chakras.ts: large line drawings of the six lower chakras for the homepage
+# background (the Sahasrara is public/sahasrara.svg). Petal counts, element shapes and seed
+# syllables follow the Sat-cakra-nirupana. Run: python3 scripts/gen-chakras.py
+import math, json
 
-def pt(cx, cy, r, a): return (cx + r*math.cos(a), cy + r*math.sin(a))
+def pt(r, a): return (r*math.cos(a), r*math.sin(a))
 def f(p): return f'{p[0]:.1f} {p[1]:.1f}'
 
-def ring(cx, cy, n, ri, ro, off=0.0, wf=0.92):
+def ring(n, ri, ro, off=0.0, wf=0.92, bulge=1.55):
     w = math.pi/n*wf; rc = ri + (ro-ri)*0.55; d = []
     for i in range(n):
         a = -math.pi/2 + off + i*2*math.pi/n
-        d.append(f'M{f(pt(cx,cy,ri,a-w))}Q{f(pt(cx,cy,rc,a-w*1.55))} {f(pt(cx,cy,ro,a))}Q{f(pt(cx,cy,rc,a+w*1.55))} {f(pt(cx,cy,ri,a+w))}')
+        d.append(f'M{f(pt(ri,a-w))}Q{f(pt(rc,a-w*bulge))} {f(pt(ro,a))}Q{f(pt(rc,a+w*bulge))} {f(pt(ri,a+w))}')
     return ''.join(d)
 
-def poly(cx, cy, r, n, rot):
-    return ' '.join(f(pt(cx,cy,r,rot+i*2*math.pi/n)) for i in range(n))
+def poly(r, n, rot, dy=0):
+    return ' '.join(f((x, y+dy)) for x, y in (pt(r, rot+i*2*math.pi/n) for i in range(n)))
 
-def bija(cx, cy, t, s=30):
-    return f'<text x="{cx}" y="{cy}" text-anchor="middle" dominant-baseline="central" font-size="{s}" fill="{V}" stroke="none">{t}</text>'
+DOWN = math.pi/2
+def bija(t, y=0, s=62):
+    return f'<text x="0" y="{y}" text-anchor="middle" dominant-baseline="central" font-size="{s}" stroke="none" fill="currentColor">{t}</text>'
 
-out = []
-nodes = []
-def chakra(name, cy, d, extra, i, r=None):
-    nodes.append((cy, r))
-    out.append(f'  <g class="ck" style="--i:{i}" data-chakra="{name}">\n    <path d="{d}" />\n    {extra}\n  </g>')
+def lotus(n, r, off=0.0, wf=0.92, ro=188):
+    # outer petals, an inner echo of each petal, and the pericarp circle
+    return (f'<path d="{ring(n, r, ro, off, wf)}" />'
+            f'<path d="{ring(n, r, r+(ro-r)*0.62, off, wf*0.72)}" opacity="0.55" />'
+            f'<circle r="{r}" /><circle r="{r-6}" opacity="0.5" />')
 
-down = math.pi/2  # a triangle with a vertex pointing down
-C = CX
-# 1 Muladhara: 4 petals, square of earth, downward triangle
-y=1390; r=40
-chakra('muladhara', y, ring(C,y,4,r,92, off=math.pi/4, wf=0.8),
-  f'<circle cx="{C}" cy="{y}" r="{r}" /><rect x="{C-27}" y="{y-27}" width="54" height="54" stroke="{M}" /><polygon points="{poly(C,y+4,22,3,down)}" stroke="{M}" opacity="0.7" />{bija(C,y-2,"लं",26)}', 0, r)
-# 2 Svadhisthana: 6 petals, crescent moon of water
-y=1210; r=40
-chakra('svadhisthana', y, ring(C,y,6,r,90),
-  f'<circle cx="{C}" cy="{y}" r="{r}" /><path stroke="{M}" d="M{C-26} {y+2}A26 26 0 0 0 {C+26} {y+2}A30 22 0 0 1 {C-26} {y+2}Z" />{bija(C,y-10,"वं",26)}', 1, r)
-# 3 Manipura: 10 petals, downward triangle of fire
-y=1030; r=42
-chakra('manipura', y, ring(C,y,10,r,90),
-  f'<circle cx="{C}" cy="{y}" r="{r}" /><polygon points="{poly(C,y,36,3,down)}" stroke="{M}" />{bija(C,y-6,"रं",26)}', 2, r)
-# 4 Anahata: 12 petals, six-pointed star of air
-y=850; r=44
-chakra('anahata', y, ring(C,y,12,r,92),
-  f'<circle cx="{C}" cy="{y}" r="{r}" /><polygon points="{poly(C,y,38,3,down)}" stroke="{M}" /><polygon points="{poly(C,y,38,3,-down)}" stroke="{M}" />{bija(C,y,"यं",26)}', 3, r)
-# 5 Vishuddha: 16 petals, downward triangle holding the full moon of space
-y=670; r=42
-chakra('vishuddha', y, ring(C,y,16,r,90),
-  f'<circle cx="{C}" cy="{y}" r="{r}" /><polygon points="{poly(C,y,37,3,down)}" stroke="{M}" opacity="0.7" /><circle cx="{C}" cy="{y}" r="16" stroke="{M}" />{bija(C,y,"हं",20)}', 4, r)
-# 6 Ajna: 2 petals, between the eyebrows
-y=505; r=30
-chakra('ajna', y, ring(C,y,2,r,110, off=math.pi/2, wf=0.62),
-  f'<circle cx="{C}" cy="{y}" r="{r}" />{bija(C,y,"ॐ",26)}', 5, r)
-# 7 Sahasrara: the thousand-petalled lotus, the crown
-y=225
-rings = [(20,24,62,0),(30,52,102,0.05),(40,86,142,0),(50,120,182,0.03),(64,156,224,0)]
-d = ''.join(ring(C,y,n,ri,ro,off) for n,ri,ro,off in rings)
-chakra('sahasrara', y, d, f'<circle cx="{C}" cy="{y}" r="24" /><circle cx="{C}" cy="{y}" r="7" fill="{V}" stroke="none" />', 6, 24)
+C = {}
+C['ajna'] = lotus(2, 74, off=math.pi/2, wf=0.6, ro=196) + bija('ॐ', 2, 76)
+C['vishuddha'] = lotus(16, 96) + f'<polygon points="{poly(88,3,DOWN)}" /><circle r="34" />' + bija('हं', 0, 44)
+C['anahata'] = lotus(12, 98) + f'<polygon points="{poly(90,3,DOWN)}" /><polygon points="{poly(90,3,-DOWN)}" />' + bija('यं', 0, 58)
+C['manipura'] = lotus(10, 96) + f'<polygon points="{poly(88,3,DOWN)}" />' + bija('रं', -12, 58)
+C['svadhisthana'] = lotus(6, 94) + '<path d="M-62 6A62 62 0 0 0 62 6A72 50 0 0 1 -62 6Z" />' + bija('वं', -26, 58)
+C['muladhara'] = lotus(4, 94, off=math.pi/4, wf=0.8) + f'<rect x="-64" y="-64" width="128" height="128" /><polygon points="{poly(50,3,DOWN,8)}" opacity="0.7" />' + bija('लं', -4, 52)
 
-nodes.sort()
-segs = ''.join(f'M{C} {a[0]+a[1]}V{b[0]-b[1]}' for a,b in zip(nodes,nodes[1:])) + f'M{C} {nodes[-1][0]+nodes[-1][1]}V1480'
-svg = f'''---
-// The seven chakras, generated by scripts/gen-chakras.py. Muladhara at the base, the
-// thousand-petalled Sahasrara as the crown, joined by the central channel (sushumna).
----
-<svg class="chakras" viewBox="0 0 {W} {H}" aria-hidden="true" focusable="false" fill="none" stroke="{V}" stroke-width="1.4" stroke-linejoin="round">
-  <path class="sushumna" d="{segs}" stroke="{M}" stroke-width="1" opacity="0.35" />
-{chr(10).join(out)}
-</svg>
-'''
-open('src/components/Chakras.astro','w').write(svg)
-print('ok', len(svg))
+names = {'ajna':'Ājñā','vishuddha':'Viśuddha','anahata':'Anāhata','manipura':'Maṇipūra','svadhisthana':'Svādhiṣṭhāna','muladhara':'Mūlādhāra'}
+order = ['ajna','vishuddha','anahata','manipura','svadhisthana','muladhara']
+items = [{'key':k,'name':names[k],'svg':f'<svg viewBox="-200 -200 400 400" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round" aria-hidden="true" focusable="false">{C[k]}</svg>'} for k in order]
+open('src/data/chakras.ts','w').write('// Generated by scripts/gen-chakras.py. The six chakras below Sahasrara, from the brow down to the base.\nexport const chakras = ' + json.dumps(items, ensure_ascii=False, indent=1) + ' as const;\n')
+print('ok')
