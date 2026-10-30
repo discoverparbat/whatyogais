@@ -106,3 +106,10 @@ strong { font-weight: 600; }
 .skip:focus { left: 8px; }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+
+/* Tables in articles: quiet rules, scroll inside their own box on small screens */
+.prose table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; border-collapse: collapse; margin: 1.8em 0; font-size: 0.98rem; max-width: 100%; }
+.prose th, .prose td { text-align: left; vertical-align: top; padding: 10px 16px 10px 0; border-bottom: 1px solid var(--line); }
+.prose th { font-weight: 600; color: var(--indigo); border-bottom: 2px solid var(--indigo); white-space: nowrap; }
+.prose td:first-child { white-space: nowrap; font-weight: 500; color: var(--indigo); }
+.prose td [lang="sa"], .prose td .dev { font-family: var(--display); }

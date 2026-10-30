@@ -80,3 +80,4 @@ You don't need to give up your favourite class to take Patanjali seriously. Try 
 
 - [The eight limbs of yoga, explained simply](/what-yoga-is/eight-limbs-of-yoga/)
 - [What is yoga, really?](/what-yoga-is/what-is-yoga/)
+- [Pranayama: what breathwork really is](/beyond-the-mat/pranayama/)

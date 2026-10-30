@@ -93,3 +93,5 @@ If you go to a yoga class, you're already practising part of limb three, and pro
 
 - [What is yoga, really?](/what-yoga-is/what-is-yoga/)
 - [Is yoga just exercise?](/lost-in-translation/is-yoga-just-exercise/)
+- [Yamas and niyamas: yoga's ethics, the first two limbs](/what-yoga-is/yamas-and-niyamas/)
+- [Pranayama: what breathwork really is](/beyond-the-mat/pranayama/)

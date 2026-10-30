@@ -80,3 +80,4 @@ The way it's often sold, it can be. The way it was taught for most of its histor
 
 - [What is yoga, really?](/what-yoga-is/what-is-yoga/)
 - [The eight limbs of yoga, explained simply](/what-yoga-is/eight-limbs-of-yoga/)
+- [How yoga came to the West, and what changed on the way](/lost-in-translation/how-yoga-came-to-the-west/)

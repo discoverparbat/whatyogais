@@ -86,3 +86,4 @@ Om is sacred to hundreds of millions of people. Using it in practice, sincerely,
 
 - [What does namaste really mean?](/lost-in-translation/namaste-meaning/)
 - [The eight limbs of yoga, explained simply](/what-yoga-is/eight-limbs-of-yoga/)
+- [Pashupatinath and Shiva, the first yogi](/himalayan-roots/pashupatinath-shiva-first-yogi/)

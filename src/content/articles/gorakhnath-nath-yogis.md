@@ -68,3 +68,4 @@ That's part of what "Himalayan roots" means on this site: not a marketing word, 
 
 - [What the Yoga Sutras actually say about asana](/the-texts/yoga-sutras-on-asana/)
 - [Is yoga just exercise?](/lost-in-translation/is-yoga-just-exercise/)
+- [Pashupatinath and Shiva, the first yogi](/himalayan-roots/pashupatinath-shiva-first-yogi/)

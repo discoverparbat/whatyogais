@@ -71,3 +71,4 @@ There's nothing wrong with it. It's a respectful greeting, and using it at the e
 
 - [What is Om, and why do we chant it?](/beyond-the-mat/om-meaning/)
 - [Is yoga just exercise?](/lost-in-translation/is-yoga-just-exercise/)
+- [Is yoga a religion?](/lost-in-translation/is-yoga-a-religion/)
