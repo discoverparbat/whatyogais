@@ -1,10 +1,10 @@
-// Site-wide settings and the five sections of Himalayan Yoga Roots.
+// Site-wide settings and the five sections of What Yoga Is.
 export const SITE = {
-  name: 'Himalayan Yoga Roots',
-  url: 'https://himalayanyogaroots.com',
+  name: 'What Yoga Is',
+  url: 'https://whatyogais.com',
   tagline: 'Yoga as it is, from where it began.',
   author: 'Sameer Regmi',
-  email: 'hello@himalayanyogaroots.com',
+  email: 'hello@whatyogais.com',
 };
 
 export interface Section {

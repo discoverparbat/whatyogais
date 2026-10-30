@@ -1,6 +1,6 @@
-# Himalayan Yoga Roots
+# What Yoga Is
 
-himalayanyogaroots.com: yoga as it is, from where it began. Clear, sourced writing on what the yoga
+whatyogais.com: yoga as it is, from where it began. Clear, sourced writing on what the yoga
 tradition actually teaches, written from Nepal. Later: authentic retreats in Nepal with Discover Parbat.
 
 Built with Astro (static), hosted on Cloudflare Pages.
@@ -32,8 +32,8 @@ npm run dev
 ## Deploy (Cloudflare Pages)
 Workers & Pages → Create → Pages → Connect to Git → discoverparbat/whatyogais.
 Framework preset: Astro. Build command `npm run build`, output directory `dist`.
-Then Custom domains → add himalayanyogaroots.com.
-Email: set up hello@himalayanyogaroots.com in Cloudflare Email Routing.
+Then Custom domains → add whatyogais.com.
+Email: set up hello@whatyogais.com in Cloudflare Email Routing.
 
 ## Content plan (next articles)
 Is yoga a religion? · What "hatha" actually means · The yamas and niyamas · Pranayama: breath before poses ·
