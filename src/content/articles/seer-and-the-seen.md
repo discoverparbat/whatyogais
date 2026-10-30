@@ -19,7 +19,8 @@ faqs:
     a: "The Yoga Sutras use the same words. Yoga Sutra 1.3 says that when the mind is still, the seer (draṣṭṛ) rests in its own nature, and 2.17 says that suffering comes from confusing the seer with the seen. Patanjali's yoga and Vedanta explain the seer differently, but both say freedom begins with telling the two apart."
 sources:
   - title: "Drg-Drsya Viveka, verse 1 (Sanskrit text), with Swami Nikhilananda's translation"
-  - title: "Swami Sarvapriyananda, Introduction to Vedanta, class 1, on Drg-Drsya Viveka verse 1 (Vedanta Society of Southern California, video lecture)"
+  - title: "Swami Sarvapriyananda, Introduction to Vedanta, Part 1, on Drg-Drsya Viveka verse 1 (Vedanta Society of Southern California, 12 January 2016)"
+    url: "https://www.youtube.com/watch?v=jx7O2zDqi6I"
   - title: "Patanjali, Yoga Sutras 1.2–1.4, 2.17 and 2.20"
   - title: "Mandukya Upanishad, verse 7"
 ---
@@ -122,7 +123,7 @@ The verse's claim is a bold one. Steps one and two are plainly facts. It says st
 
 ## Where this teaching comes from
 
-This article draws on the first class of Swami Sarvapriyananda's *Introduction to Vedanta* series, given at the Vedanta Society of Southern California, which works through the *Dṛg-Dṛśya Viveka* verse by verse. It's one of the clearest introductions to the subject in English, and worth watching in full. The explanation here is our own summary; any mistakes are ours.
+This article draws on [the first class of Swami Sarvapriyananda's *Introduction to Vedanta* series](https://www.youtube.com/watch?v=jx7O2zDqi6I), given at the Vedanta Society of Southern California on 12 January 2016. The series works through the *Dṛg-Dṛśya Viveka* verse by verse. It's one of the clearest introductions to the subject in English, and worth watching in full. The explanation here is our own summary; any mistakes are ours.
 
 ## Where to go next
 

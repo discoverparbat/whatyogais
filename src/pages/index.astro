@@ -18,6 +18,13 @@ const limbs = [
   { dev: 'समाधि', iast: 'samādhi', en: 'Absorption' },
 ];
 
+const seer = [
+  { dev: 'रूपम्', iast: 'rūpam', en: 'Form and colour', by: 'seen by the eye' },
+  { dev: 'लोचनम्', iast: 'locanam', en: 'The eye', by: 'seen by the mind' },
+  { dev: 'मनः', iast: 'manas', en: 'The mind', by: 'seen by the witness' },
+  { dev: 'साक्षी', iast: 'sākṣī', en: 'The witness', by: 'never seen' },
+];
+
 const schema = {
   '@context': 'https://schema.org', '@type': 'WebSite',
   name: SITE.name, url: SITE.url + '/', description: 'Clear, sourced writing on what the yoga tradition actually teaches, from Nepal.',
@@ -68,6 +75,22 @@ const schema = {
       </ol>
       <a href="/what-yoga-is/eight-limbs-of-yoga/">The eight limbs, explained simply</a>
     </div>
+  </section>
+
+  <section class="container seer">
+    <h2>Who is watching?</h2>
+    <p class="seer-intro">A 14th-century Vedanta text opens with one verse that walks from your eyes to the heart of yoga in four steps. Whatever knows is never the thing it knows.</p>
+    <ol class="seer-steps">
+      {seer.map((x, i) => (
+        <li class={i === 3 ? 'is-witness' : ''}>
+          <span class="dev" lang="sa">{x.dev}</span>
+          <span class="iast">{x.iast}</span>
+          <span class="en">{x.en}</span>
+          <span class="by">{x.by}</span>
+        </li>
+      ))}
+    </ol>
+    <p class="seer-links"><a href="/the-texts/seer-and-the-seen/">Read: the seer and the seen</a><span aria-hidden="true"> · </span><a href="/beyond-the-mat/witness-meditation/">Try it: witness meditation</a></p>
   </section>
 
   <section class="container explore">
@@ -157,7 +180,29 @@ const schema = {
     .limbs li.is-asana { padding-left: 12px; }
   }
 
-  .explore { padding-top: 24px; }
+  .seer { margin-top: 80px; }
+  .seer h2 { margin-top: 0; }
+  .seer-intro { max-width: 60ch; font-size: 1.1rem; }
+  .seer-steps { list-style: none; padding: 0; margin: 32px 0 24px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; counter-reset: s; }
+  .seer-steps li { position: relative; display: flex; flex-direction: column; gap: 2px; padding: 20px 18px; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; }
+  .seer-steps li:not(:last-child)::after { content: '→'; position: absolute; right: -13px; top: 50%; transform: translateY(-50%); color: var(--saffron-deep); font-size: 1.1rem; background: var(--snow); line-height: 1; padding: 2px 0; z-index: 1; }
+  .seer-steps .dev { font-family: var(--display); font-size: 1.6rem; color: var(--indigo); line-height: 1.3; }
+  .seer-steps .iast { font-family: var(--display); font-style: italic; color: var(--slate); font-size: 0.95rem; }
+  .seer-steps .en { font-weight: 600; margin-top: 6px; }
+  .seer-steps .by { color: var(--slate); font-size: 0.95rem; }
+  .seer-steps .is-witness { background: var(--indigo); border-color: var(--indigo); color: var(--on-indigo); }
+  .seer-steps .is-witness .dev { color: var(--saffron); }
+  .seer-steps .is-witness .iast, .seer-steps .is-witness .by { color: var(--on-indigo-muted); }
+  .seer-links { font-weight: 600; }
+  @media (max-width: 800px) {
+    .seer-steps { grid-template-columns: 1fr; gap: 12px; }
+    .seer-steps li { flex-direction: row; flex-wrap: wrap; align-items: baseline; column-gap: 10px; }
+    .seer-steps .en { margin-top: 0; }
+    .seer-steps .by { flex-basis: 100%; }
+    .seer-steps li:not(:last-child)::after { content: '↓'; right: auto; left: 24px; top: auto; bottom: -15px; transform: none; padding: 0 4px; }
+  }
+
+  .explore { padding-top: 24px; margin-top: 80px; }
   .sec-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 0 40px; }
   .sec-grid li { border-top: 1px solid var(--line); }
   .sec-grid a { display: grid; grid-template-columns: 5.5rem 1fr; grid-template-rows: auto auto auto; column-gap: 16px; padding: 22px 0; text-decoration: none; color: inherit; }

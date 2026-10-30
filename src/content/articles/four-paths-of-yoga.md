@@ -19,12 +19,13 @@ faqs:
     a: "The Bhagavad Gita teaches the yogas of action, knowledge, devotion and meditation. Swami Vivekananda arranged them as four paths in his lectures and books of the 1890s, and that is the form most people know today."
 sources:
   - title: "Bhagavad Gita 2.47, 4.38, 6.19 and 9.26"
-  - title: "Swami Vivekananda, Raja Yoga (1896), preface; Karma Yoga (1896); Bhakti Yoga (1896); Jnana Yoga (1899)"
+  - title: "Swami Vivekananda, Raja Yoga (1896), opening page; Karma Yoga (1896); Bhakti Yoga (1896); Jnana Yoga (1899)"
   - title: "Svatmarama, Hatha Yoga Pradipika 1.1–1.2"
-  - title: "Swami Sarvapriyananda, Introduction to Vedanta, class 1 (Vedanta Society of Southern California, video lecture)"
+  - title: "Swami Sarvapriyananda, Introduction to Vedanta, Part 1 (Vedanta Society of Southern California, 12 January 2016)"
+    url: "https://www.youtube.com/watch?v=jx7O2zDqi6I"
 ---
 
-In most of the world, "yoga" means one thing: a posture class. In the tradition, it's a family of paths. The *Bhagavad Gita* teaches yoga as action, as devotion, as meditation and as knowledge, and in the 1890s Swami Vivekananda arranged these into the four paths that most Indian teachers still use. He put the idea in one sentence in the preface to *Raja Yoga*:
+In most of the world, "yoga" means one thing: a posture class. In the tradition, it's a family of paths. The *Bhagavad Gita* teaches yoga as action, as devotion, as meditation and as knowledge, and in the 1890s Swami Vivekananda arranged these into the four paths that most Indian teachers still use. He put the whole idea on the opening page of his book *Raja Yoga*:
 
 <blockquote>
 <p>"Each soul is potentially divine. The goal is to manifest this Divinity within, by controlling nature, external and internal. Do this either by work, or worship, or psychic control, or philosophy — by one, or more, or all of these — and be free."</p>

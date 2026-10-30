@@ -17,6 +17,8 @@ faqs:
     a: "No. Yoga grew within Indian religious and philosophical traditions, and many practitioners there see it as spiritual. But its core methods, such as ethical restraint, breath control and meditation, can be practised by anyone, whatever they believe."
   - q: "What is the goal of yoga?"
     a: "In the Yoga Sutras, the goal is for the seer to rest in its own nature (1.3) once the mind is still, leading to kaivalya, liberation. The Bhagavad Gita describes yoga as evenness of mind and as skill in action."
+  - q: "Who is the seer in yoga?"
+    a: "The seer (draṣṭṛ) is the awareness that knows the body and the mind. Because it knows them, it isn't one of them. The Yoga Sutras say suffering comes from confusing the seer with what it sees (2.17), and that yoga lets the seer rest in its own nature (1.3)."
 sources:
   - title: "Patanjali, Yoga Sutras 1.2–1.3 and 2.29 (Sanskrit text and translation)"
   - title: "Bhagavad Gita 2.48 and 2.50"
@@ -43,7 +45,7 @@ The most quoted definition comes from Patanjali's *Yoga Sutras*, compiled around
 <p class="ref">Yoga Sutras 1.2</p>
 </div>
 
-*Citta* is the mind-field, *vṛtti* its constant turning (thoughts, memories, reactions, daydreams), and *nirodha* their settling. The very next sutra says what happens then: "the seer rests in its own nature." When the mental noise quietens, you see clearly what you are.
+*Citta* is the mind-field, *vṛtti* its constant turning (thoughts, memories, reactions, daydreams), and *nirodha* their settling. The very next sutra says what happens then: "the seer rests in its own nature." When the mental noise quietens, you see clearly what you are. Who that "seer" is turns out to be the central question of the whole tradition. A famous verse from Vedanta walks you to it in four steps, which we follow in [the seer and the seen](/the-texts/seer-and-the-seen/).
 
 That's the point of yoga in its classical form. Flexibility, strength and calm are welcome side effects. The aim is a still, clear mind and, beyond it, freedom (*kaivalya*).
 
@@ -80,7 +82,7 @@ Patanjali isn't the only voice. The *Bhagavad Gita*, probably composed a little 
 <p class="ref">Bhagavad Gita 2.50</p>
 </div>
 
-Here yoga is a way of living: acting fully and well, without being thrown about by success and failure. The Gita describes several paths, among them the yoga of action (*karma*), of devotion (*bhakti*), of knowledge (*jñāna*) and of meditation (*dhyāna*). None of them is about stretching.
+Here yoga is a way of living: acting fully and well, without being thrown about by success and failure. The Gita describes several paths, among them the yoga of action (*karma*), of devotion (*bhakti*), of knowledge (*jñāna*) and of meditation (*dhyāna*). None of them is about stretching. We explain each one, and which might suit you, in [the four paths of yoga](/what-yoga-is/four-paths-of-yoga/).
 
 Later, from around the 11th century, the **hatha yoga** traditions, many of them linked to the Nath yogis of the Himalaya, developed postures, breath practices and cleansing techniques in far more detail. Even then, the body was a vehicle for the same inner goal. The *Hatha Yoga Pradipika* says plainly that hatha yoga exists as a ladder to raja yoga, the yoga of the mind.
 
@@ -99,5 +101,7 @@ None of that makes a class worthless. It's often how people first feel what yoga
 ## Where to go next
 
 - [The eight limbs of yoga, explained simply](/what-yoga-is/eight-limbs-of-yoga/)
+- [Karma, bhakti, raja and jnana: the four paths of yoga](/what-yoga-is/four-paths-of-yoga/)
+- [The seer and the seen: one verse that explains what yoga is for](/the-texts/seer-and-the-seen/)
 - [Is yoga just exercise?](/lost-in-translation/is-yoga-just-exercise/)
 - [What the Yoga Sutras actually say about asana](/the-texts/yoga-sutras-on-asana/)
