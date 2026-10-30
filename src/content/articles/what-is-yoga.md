@@ -16,7 +16,7 @@ faqs:
   - q: "Did Patanjali invent yoga?"
     a: "No. Yoga appears earlier in the Upanishads and the Bhagavad Gita. Patanjali's Yoga Sutras open with 'now, the teaching of yoga', a teaching handed on. He took the path of meditation, dhyana yoga, and set it out systematically as eight limbs."
   - q: "What is the real meaning of yoga?"
-    a: "The word comes from the Sanskrit root yuj, which means to yoke or join, and also to concentrate or be absorbed. Patanjali's Yoga Sutras define yoga as the stilling of the movements of the mind (yogaś citta-vṛtti-nirodhaḥ, 1.2). The goal is a settled, clear mind and, ultimately, realisation."
+    a: "The word comes from the Sanskrit root yuj, which means to unite or join, so yoga means union: of the individual self with the universal Self. Yuj also means to concentrate or be absorbed. Patanjali's Yoga Sutras define yoga as the stilling of the movements of the mind (yogaś citta-vṛtti-nirodhaḥ, 1.2). The goal is a settled, clear mind and, ultimately, realisation."
   - q: "Is yoga just stretching?"
     a: "No. Postures (asana) are one of eight limbs in Patanjali's system, and the Yoga Sutras say very little about them. The tradition puts far more weight on ethics, breath, withdrawing the senses, concentration and meditation."
   - q: "Do you have to be religious to practise yoga?"
@@ -41,7 +41,11 @@ Ask ten people what yoga is and most will describe a class: a mat, a sequence of
 
 ## What the word means
 
-*Yoga* comes from the Sanskrit root **yuj**. Old Sanskrit grammars list it with two senses: to yoke or join, as you'd yoke an ox to a cart, and to concentrate, to be absorbed. Both matter. Yoga is a discipline that harnesses an unruly mind, and a state of deep, settled attention.
+*Yoga* comes from the Sanskrit root **युज् yuj**, which means **to unite**, to yoke or join, as you'd yoke an ox to a cart. So the word itself means **union**.
+
+Union of what? The tradition's answer is the union of the individual self with the universal Self: of *jīvātman* with *paramātman*, of the seer within you with the one reality, Brahman. In Vedanta's terms it isn't the joining of two separate things, but the discovery that they were never apart. The [four paths](/what-yoga-is/four-paths-of-yoga/) are four ways to that union.
+
+Old Sanskrit grammars also list a second sense of *yuj*: to concentrate, to be absorbed (*samādhi*). Patanjali's commentators lean on this one, since for them yoga is the absorbed, still mind. The two meanings meet: yoga is the discipline that harnesses an unruly mind, and the deep, settled attention in which that union is realised.
 
 It isn't, in its origins, a word about the body at all.
 

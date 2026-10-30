@@ -48,11 +48,11 @@ We follow them here with the translation and commentary of **Swami Vivekananda**
 <p class="ref">Yoga Sutras 1.2</p>
 </div>
 
-Four words. Each one matters.
+Four words. Each one matters. The first, *yoga*, comes from the Sanskrit root *yuj*, to unite, and means **union**: of the individual self with the universal. Patanjali's definition says how that union is realised: by stilling the mind.
 
 | Word | Meaning | Vivekananda's term |
 |---|---|---|
-| **yogaḥ** | yoga | concentration, union |
+| **yogaḥ** | yoga, from the root *yuj*, "to unite": union | concentration |
 | **citta** | the whole field of the mind | "mind-stuff" |
 | **vṛtti** | its turnings: thoughts, perceptions, memories, feelings | "various forms", "waves", literally "whirlpool" |
 | **nirodhaḥ** | stilling, restraint, cessation | "restraining" |
