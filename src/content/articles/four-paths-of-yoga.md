@@ -107,7 +107,7 @@ Bhakti yoga turns the heart's strongest force, love, toward the divine. Instead 
 <p class="ref">Bhagavad Gita 9.26</p>
 </div>
 
-In Nepal and India this is the yoga most people actually live: the temple bell before work, the lamp lit at dusk, the pilgrimage to Pashupatinath.
+In Nepal and India this is the yoga most people actually live: the temple bell before work, the lamp lit at dusk, the pilgrimage to Pashupatinath. We go deeper in [Bhakti yoga: the path of devotion](/what-yoga-is/bhakti-yoga-path-of-devotion/).
 
 **Suits:** people led by feeling, people who already pray, anyone for whom love comes easier than analysis.
 
