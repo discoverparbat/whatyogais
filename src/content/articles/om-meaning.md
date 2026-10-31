@@ -41,6 +41,8 @@ The short *Mandukya Upanishad* is devoted entirely to Om. It maps the syllable o
 - **M:** deep, dreamless sleep, where awareness rests undivided
 - **The silence after:** the fourth (*turīya*), pure awareness that underlies all three
 
+We go through these four states, and the Upanishad's famous seventh verse, in [Who am I? Waking, dreaming, deep sleep and the fourth](/the-texts/who-am-i-mandukya-upanishad/).
+
 That last point is easy to miss. In this teaching, **the silence after Om matters as much as the sound.** The chant is a way of moving through the layers of the mind to the stillness behind them.
 
 ## What the Yoga Sutras say

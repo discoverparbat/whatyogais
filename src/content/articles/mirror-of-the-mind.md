@@ -73,7 +73,7 @@ The first two you can do nothing about while you live. But the third isn't a rea
 
 If consciousness never changes, why do I feel bright in the morning, dull at night, strange in dreams and absent in deep sleep? Verses 10 and 11 answer: those are states of the *mind*, not of consciousness. A polished mirror gives a sharp reflection, a foggy one a dim reflection, a mirror turned face down none at all. The face itself never changes.
 
-Swami Sarvapriyananda tells it with a station master on a railway platform. In the morning the big express pulls in: crowds, noise, deals, deadlines. That's waking. It leaves, and a slow goods train comes in, half lit, a few shapes moving about. That's dreaming. It leaves too, and the platform is empty. That's deep sleep. Through all of it the station master stands watching. He didn't arrive with any train and he doesn't leave with one.
+Swami Sarvapriyananda tells it with a station master on a railway platform. In the morning the big express pulls in: crowds, noise, deals, deadlines. That's waking. It leaves, and a slow goods train comes in, half lit, a few shapes moving about. That's dreaming. It leaves too, and the platform is empty. That's deep sleep. Through all of it the station master stands watching. He didn't arrive with any train and he doesn't leave with one. The *Māṇḍūkya Upaniṣad* builds its whole answer to "who am I?" on these three states; see [Who am I? Waking, dreaming, deep sleep and the fourth](/the-texts/who-am-i-mandukya-upanishad/).
 
 ## Birth and death
 
